@@ -5,7 +5,7 @@ heroText: null
 tagline: null
 footer: Made with VuePress v2.x and Markdown — Guilherme M. Petry 2022
 ---
-<center>
+<!-- <center> -->
 
 # About
 
@@ -28,4 +28,4 @@ You can also follow me on [GitHub](https://github.com/petry078) and [LinkedIn](h
 
 And [here is the GitHub repository for this project!](https://github.com/petry078/spellblog)
 
-</center>
+<!-- </center> -->
