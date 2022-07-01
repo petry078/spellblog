@@ -1,20 +1,20 @@
 # Spellblog
 Documentations, writings, spells and other stuff.
 
-![vuepress-proof.png](https://imgur.com/xXpidn5)
+![vuepress-proof.png](https://i.imgur.com/xXpidn5.png)
 
-*Run it locally:*
+**Run it locally:**
 
-`npm install`
+Clone the main branch and:
 
-`npm run docs:dev`
+1. `npm install`
+2. `npm run docs:dev`
 
 or
 
-`yarn install`
+1. `yarn install`
+2. `yarn run docs:dev`
 
-`yarn run docs:dev`
-
-*To make changes/updates:*
+**To make changes/updates:**
 
 Commit the changes to the main branch and the GitHub Pages will do its job.
