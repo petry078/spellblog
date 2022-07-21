@@ -2,6 +2,7 @@
 title: Markdown cheat sheet
 date: "2022-07-21"
 permalink: "/markdown-cheat-sheet"
+sidebar: false
 tags:
   - markdown
   - vuepress
