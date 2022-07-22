@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-4d51d53c","path":"/posts/post2.html","title":"post2.md","lang":"en-US","frontmatter":{},"excerpt":"","headers":[],"git":{"updatedTime":1658449690000,"contributors":[{"name":"Guilherme M. Petry","email":"44437770+petry078@users.noreply.github.com","commits":1}]},"filePathRelative":"posts/post2.md"}');export{t as data};

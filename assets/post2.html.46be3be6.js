@@ -1,0 +1,1 @@
+import{_ as t,o as s,c as o,a as e,e as a}from"./app.40431a09.js";const r={},c=e("h1",{id:"post2-md",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#post2-md","aria-hidden":"true"},"#"),a(" post2.md")],-1),_=e("p",null,"Here is the post 2",-1),d=[c,_];function n(i,h){return s(),o("div",null,d)}var p=t(r,[["render",n],["__file","post2.html.vue"]]);export{p as default};
