@@ -11,7 +11,7 @@ footer: Made with VuePress v2.x and Markdown — Guilherme M. Petry 2022
 
 Basic Markdown syntax
 
-[Read more!](/posts/2022-07-21-markdown-cheat-sheet.html)
+[Read more!](spellblog/posts/2022-07-21-markdown-cheat-sheet.html)
 
 ---
  
