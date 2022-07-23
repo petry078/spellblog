@@ -6,9 +6,9 @@ Live: [https://petry078.github.io/spellblog/](https://petry078.github.io/spellbl
 
 ![vuepress-proof.png](https://i.imgur.com/xXpidn5.png)
 
-To add and manage posts, just edit the Markdown files inside the `docs` folder.
+To add/manage pages and posts, just edit the Markdown files inside the `docs` folder.
 
-To make core changes/updates, clone the main branch and:
+To make framework changes/updates, clone the main branch and:
 1. `npm install`
 1. `npm run docs:dev`
 
