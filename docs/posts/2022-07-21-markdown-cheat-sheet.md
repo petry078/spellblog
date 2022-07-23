@@ -37,3 +37,18 @@ tags:
 | |--------|--------|--------| Table                 | Good old monospaced manual table  | 
 | | Item   | Item   | Item   |                       |                                   |
 ```
+
+<div class="wisdom">
+<img class="wisdony" src="https://upload.wikimedia.org/wikipedia/commons/d/d7/Cups05.jpg" alt="">
+</div>
+
+<style>
+  .wisdom {
+    display: flex;
+    justify-content: end;
+  }
+
+  .wisdony {
+  height: 90px;
+  }
+</style>
