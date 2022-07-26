@@ -10,6 +10,7 @@ tags:
 
 # Terminal commands I use
 
+```
 | Command         | Description                                      |
 |-----------------|--------------------------------------------------|
 | mkdir newFolder | Creates a new folder                             |
@@ -25,3 +26,4 @@ tags:
 | clear           | Clear previous commands                          |
 | Ctrl + A or E   | Send cursos to beginning (A) / end (E) to the end|
 | code .          | Open folder on Visual Studio Code (if installed) |
+```
