@@ -45,10 +45,10 @@ tags:
 <style>
   .wisdom {
     display: flex;
-    justify-content: end;
+    justify-content: center;
   }
 
   .wisdony {
-  height: 90px;
+  height: 120px;
   }
 </style>
