@@ -1,5 +1,5 @@
 ---
-title: Terminal commands I use
+title: Terminal commands
 date: "2022-07-26"
 sidebar: false
 tags:
@@ -26,8 +26,23 @@ tags:
 | clear           | Clear previous commands                                     |
 | Ctrl + A or E   | Send cursos to beginning (A) / end (E) to the end           |
 | code .          | Open folder on Visual Studio Code (if installed)            |
+| curl URL        | Send GET request to URL. Try "curl wttr.in"                 |
+| curl -o URL     | Download content (alphabetic "o", not zero)                 |
 111111111122222222223333333333444444444455555555556666666666777777777788888888889
 ```
+
+> Remember! Those are not spells. We will get there...
+
+## Using curl to convert images from the web
+
+Define the output name and file extension after -o. Just like this:
+
+`curl -o output.png https://www.thehousedesigners.com/images/uploads/SiteImage-Landing-large-house-plans-1.webp`
+
+It works with .webp/.jpeg to .png
+
+> Web developers love the .webp/.webm. file format. It is smaller and loads faster. But content creators hate it. .webp/.webm doesn't open on preview apps.
+
 <div class="wisdom">
 <img class="wisdony" src="https://upload.wikimedia.org/wikipedia/commons/2/24/Cups09.jpg" alt="">
 </div>
