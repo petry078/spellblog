@@ -1,4 +1,11 @@
 ---
+title: Terminal commands I use
+date: "2022-07-26"
+sidebar: false
+tags:
+  - linux
+  - terminal
+  - commands
 ---
 
 # Terminal commands I use
