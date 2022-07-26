@@ -14,4 +14,13 @@ Basic Markdown syntax
 [Read more!](https://petry078.github.io/spellblog/posts/2022-07-21-markdown-cheat-sheet.html)
 
 ---
+
+## Terminal commands I use
+*26 jul 2022*
+
+Remember! Those are not speels, yet...
+
+[Read more!](https://petry078.github.io/spellblog/posts/terminal-commands.html)
+
+---
  
