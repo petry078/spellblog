@@ -28,3 +28,17 @@ tags:
 | code .          | Open folder on Visual Studio Code (if installed)            |
 111111111122222222223333333333444444444455555555556666666666777777777788888888889
 ```
+<div class="wisdom">
+<img class="wisdony" src="https://upload.wikimedia.org/wikipedia/commons/2/24/Cups09.jpg" alt="">
+</div>
+
+<style>
+  .wisdom {
+    display: flex;
+    justify-content: center;
+  }
+
+  .wisdony {
+  height: 120px;
+  }
+</style>
