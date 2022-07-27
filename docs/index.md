@@ -20,7 +20,9 @@ Basic Markdown syntax
 
 Remember! Those are not speels, yet...
 
-[Read more!](https://petry078.github.io/spellblog/posts/terminal-commands.html){target="_self"}
+[Read more!](https://petry078.github.io/spellblog/posts/terminal-commands.html)
+
+<a href="https://petry078.github.io/spellblog/posts/terminal-commands.html">Read more!</a>
 
 ---
  
