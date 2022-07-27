@@ -11,7 +11,7 @@ footer: Made with VuePress v2.x and Markdown — Guilherme M. Petry 2022
 
 Basic Markdown syntax
 
-[Read more!](https://petry078.github.io/spellblog/posts/2022-07-21-markdown-cheat-sheet.html)
+<a href="https://petry078.github.io/spellblog/posts/2022-07-21-markdown-cheat-sheet.html"><b>Read more!</b></a>
 
 ---
 
@@ -20,9 +20,4 @@ Basic Markdown syntax
 
 Remember! Those are not speels, yet...
 
-[Read more!](https://petry078.github.io/spellblog/posts/terminal-commands.html)
-
-<a href="https://petry078.github.io/spellblog/posts/terminal-commands.html">Read more!</a>
-
----
- 
+<a href="https://petry078.github.io/spellblog/posts/terminal-commands.html"><b>Read more!</b></a>
