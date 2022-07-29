@@ -8,7 +8,7 @@ tags:
   - commands
 ---
 
-# Terminal commands I use
+# Terminal commands
 
 ```
 | Command         | Description                                                 |
