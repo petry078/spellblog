@@ -28,7 +28,8 @@ tags:
 | code .          | Open folder on Visual Studio Code (if installed)            |
 | curl URL        | Send GET request to URL. Try "curl wttr.in"                 |
 | curl -o URL     | Download content (alphabetic "o", not zero)                 |
-111111111122222222223333333333444444444455555555556666666666777777777788888888889
+| xdg-open "path" | Open folder/archive. "xdg-open /home/petry" will open home  |
+| xdg-open "file" | "xdg-open index.md" will open index.md form current folder  |
 ```
 
 > Remember! Those are not spells. We will get there...
