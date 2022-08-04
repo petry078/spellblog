@@ -10,7 +10,7 @@ tags:
 
 # Markdown cheat sheet
 
-```
+```html
 | Markup syntax    | Name                            | Description & Examples            |
 |------------------|---------------------------------|-----------------------------------|
 | #                | Heading 1 <h1>                  | # H1                              |
@@ -32,10 +32,15 @@ tags:
 | [text](URL)      | Hyperlink                       | [Download here!](URL)             |
 | ![alt text](URL) | Image                           | ![altText](URL)                   |
 | \                | Disable Markdown style          | Use before ``` * # - + ! |        |
-|                  |                                 |                                   |   
-| | Column | Column | Column |                       |                                   |
-| |--------|--------|--------| Table                 | Good old monospaced manual table  | 
-| | Item   | Item   | Item   |                       |                                   |
+|------------------|---------------------------------|-----------------------------------|
+|                                                                                        |
+|                                 text-align on tables                                   |
+|                                                                                        |
+|               | text-align: left | text-align: center | text-align: right |            |
+|               |:-----------------|:------------------:|------------------:|            |
+|               | text             |        text        |              text |            |
+|                                                                                        |
+
 ```
 
 <div class="wisdom">
