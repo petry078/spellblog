@@ -6,6 +6,8 @@ tagline: Documentations, writings, spells and other stuff
 footer: Made with VuePress v2.x and Markdown — Guilherme M. Petry 2022
 ---
 
+---
+
 ### Terminal commands
 *26 jul 2022*
 
