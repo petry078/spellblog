@@ -10,7 +10,7 @@ tags:
 
 # Markdown cheat sheet
 
-```html
+```
 | Markup syntax    | Name                            | Description & Examples            |
 |------------------|---------------------------------|-----------------------------------|
 | #                | Heading 1 <h1>                  | # H1                              |
