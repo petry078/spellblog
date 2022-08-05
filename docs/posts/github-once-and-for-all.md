@@ -54,3 +54,18 @@ git add .
 git commit -m "commit description"
 git push
 ```
+
+<div class="wisdom">
+<img class="wisdony" src="https://upload.wikimedia.org/wikipedia/commons/1/11/Wands01.jpg" alt="">
+</div>
+
+<style>
+  .wisdom {
+    display: flex;
+    justify-content: center;
+  }
+
+  .wisdony {
+  height: 120px;
+  }
+</style>
