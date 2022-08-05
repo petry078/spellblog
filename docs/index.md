@@ -8,8 +8,17 @@ footer: Made with VuePress v2.x and Markdown — Guilherme M. Petry 2022
 
 ---
 
+### GitHub once and for all
+*05 Aug 2022*
+
+The easiest way to make GitHub commits is using the Terminal, trust me
+
+<a href="https://petry078.github.io/spellblog/posts/github-once-and-for-all.html"><b>Read more!</b></a>
+
+---
+
 ### Terminal commands
-*26 jul 2022*
+*26 Jul 2022*
 
 Remember! Those are not speels, yet...
 
@@ -18,7 +27,7 @@ Remember! Those are not speels, yet...
 ---
 
 ### Markdown cheat sheet
-*21 jul 2022*
+*21 Jul 2022*
 
 Basic Markdown syntax
 
