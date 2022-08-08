@@ -20,7 +20,7 @@ The easiest way to make GitHub commits is using the Terminal, trust me
 ### Terminal commands
 *26 Jul 2022*
 
-Remember! Those are not speels, yet...
+Remember! Those are not spells, yet...
 
 <a href="https://petry078.github.io/spellblog/posts/terminal-commands.html"><b>Read more!</b></a>
 
