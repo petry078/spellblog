@@ -45,17 +45,15 @@ The `git push` must return a message of success with the link of the repository 
 
 ## Working with branches
 
-* git clone URL
-* cd repositoryName
-* git status
-* git checkout -b NewBranch
-* code . 
-
-Make your changes.
-
-* git add .
-* git commit -m "commit description" 
-* git push --set-upstream origin NewBranch
+* `git clone URL`
+* `cd repositoryName`
+* `git status`
+* `git checkout -b NewBranch`
+* `code .`
+* Make your changes.
+* `git add .`
+* `git commit -m "commit description"`
+* `git push --set-upstream origin NewBranch`
 
 This last command will bring the pull request page ready to pull it to main branch.
 
@@ -75,8 +73,9 @@ git clone gitURL
 git add .
 git commit -m "commit description"
 git push
+```
 
-//With branches:
+```git
 git checkout -b NewBranch
 git push --set-upstream origin NewBranch
 ```
