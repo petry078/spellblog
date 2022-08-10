@@ -43,6 +43,28 @@ The `git push` must return a message of success with the link of the repository 
 
 > Its nice to check. I've losted files in this process before...
 
+## Working with branches
+
+* git clone URL
+* cd repositoryName
+* git status
+* git checkout -b NewBranch
+* code . 
+
+Make your changes.
+
+* git add .
+* git commit -m "commit description" 
+* git push --set-upstream origin NewBranch
+
+This last command will bring the pull request page ready to pull it to main branch.
+
+* Create a pull request for "NewBranch" on GitHub by visiting "URL";
+* Create Pull Request;
+* Merge Pull Request;
+* Confirm merge;
+* Delete branch.
+
 ---
 
 ### Git commands used
@@ -53,6 +75,10 @@ git clone gitURL
 git add .
 git commit -m "commit description"
 git push
+
+//With branches:
+git checkout -b NewBranch
+git push --set-upstream origin NewBranch
 ```
 
 <div class="wisdom">
