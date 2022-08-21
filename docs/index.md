@@ -8,6 +8,15 @@ footer: Made with VuePress v2.x and Markdown — Guilherme M. Petry 2022
 
 ---
 
+### JavaScript references
+*20 Aug 2022*
+
+Faaaar from beying complete...
+
+<a href="https://petry078.github.io/spellblog/posts/javascript-reference.html"><b>Read more!</b></a>
+
+---
+
 ### GitHub once and for all
 *05 Aug 2022*
 
