@@ -70,7 +70,8 @@ console.log(jsStringLenght)
 Precedence order:
 1. Arithmetic;
 2. Comparison;
-3. Logical.
+3. Logical;
+4. Ternary.
 
 ### Arithmetic operators
 
