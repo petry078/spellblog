@@ -1,7 +1,7 @@
 ---
 title: JavaScript references
 date: "2022-08-20"
-sidebar: true
+sidebar: auto
 tags:
   - javascript
   - reference
