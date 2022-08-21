@@ -13,7 +13,7 @@ footer: Made with VuePress v2.x and Markdown — Guilherme M. Petry 2022
 
 Faaaar from beying complete...
 
-<a href="https://petry078.github.io/spellblog/posts/javascript-reference.html"><b>Read more!</b></a>
+<a href="https://petry078.github.io/spellblog/posts/javascript-references.html"><b>Read more!</b></a>
 
 ---
 
