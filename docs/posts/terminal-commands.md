@@ -15,21 +15,25 @@ tags:
 |-----------------|-------------------------------------------------------------|
 | mkdir newFolder | Creates a new folder                                        |
 | ls              | List files/folders                                          |
+| ls -a           | ls + hidden files                                           |
 | ls -la          | List with details + hidden files                            |
-| cd              | Navigate further (cd desktop)                               |
+| cd              | Change directory                                            |
 | cd ..           | Navigate one folder back                                    |
-| pwd             | Shows current working folder                                |
+| pwd             | Print working directory                                     |
 | touch index.md  | Creates a new file                                          |
 | echo            | echo "Hello, world!" > hello.md                             |
 | find            | Search inside current folder                                |
 | find -i         | Case sensitive search inside current folder                 |
 | clear           | Clear previous commands                                     |
-| Ctrl + A or E   | Send cursos to beginning (A) / end (E) to the end           |
+| Ctrl + A or E   | Send cursor to beginning (A) / end (E) to the end           |
 | code .          | Open folder on Visual Studio Code (if installed)            |
 | curl URL        | Send GET request to URL. Try "curl wttr.in"                 |
 | curl -o URL     | Download content (alphabetic "o", not zero)                 |
+| open .          | macOS only: open current working directory on Finder        |
+| xdg-open .      | Linux only: Open current working directory on Files         |
 | xdg-open "path" | Open folder/archive. "xdg-open /home/petry" will open home  |
 | xdg-open "file" | "xdg-open index.md" will open index.md form current folder  |
+
 ```
 
 > Remember! Those are not spells. We will get there...
