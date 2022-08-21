@@ -1,7 +1,7 @@
 ---
 title: GitHub once and for all
 date: "2022-08-05"
-sidebar: false
+sidebar: auto
 tags:
   - github
   - github-guide
