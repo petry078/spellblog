@@ -46,7 +46,7 @@ or (old way):
 
 ```javascript
 console.log(`Name: ${name};`)
-console.logNum(`Surname: ${surname}.`)
+console.log(`Surname: ${surname}.`)
 ```
 
 ### String formatting
