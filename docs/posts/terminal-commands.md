@@ -34,7 +34,6 @@ tags:
 | xdg-open .      | Linux only: Open current working directory on Files         |
 | xdg-open "path" | Open folder/archive. "xdg-open /home/petry" will open home  |
 | xdg-open "file" | "xdg-open index.md" will open index.md form current folder  |
-
 ```
 
 > Remember! Those are not spells. We will get there...
