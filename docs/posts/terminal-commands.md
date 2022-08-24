@@ -19,6 +19,7 @@ tags:
 | ls -la          | List with details + hidden files                            |
 | cd              | Change directory                                            |
 | cd ..           | Navigate one folder back                                    |
+| rm / rm -r      | Delete file / delete folder (may need to run as sudo)       |
 | pwd             | Print working directory                                     |
 | touch index.md  | Creates a new file                                          |
 | echo            | echo "Hello, world!" > hello.md                             |
