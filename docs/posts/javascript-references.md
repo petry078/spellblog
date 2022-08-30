@@ -145,7 +145,6 @@ Examples:
 5 == 5 //true
 4 != 4 //false
 
-
 // strict equal operator
 2 === 2 // true
 2 === '2' // false
@@ -178,7 +177,6 @@ true && true //true
 true && false //false
 false && false //false
 false && true //false
-
 
 //Only one need to be `true` to return `true`
 true || true //true
