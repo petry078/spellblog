@@ -213,6 +213,73 @@ var age = 18
 var r = age >= 18 ? "Adult" : "Child" // Adult (true)
 ```
 
+## Manipulating the Document Object Model (DOM)
+
+The DOM tree:
+
+```html
+window - location
+       - document - <html> - <head>
+			      - <body> - <main> - <p>
+			      - other HTML tags
+       - history	
+```
+
+### Selectors
+
+#### getElementsBy...
+
+* `getElementById` Select HTML tag by its ID.
+* `getElementsByTagName()` Select HTML tags.
+* `getElementsByName()` Select HTML tag by its name.
+* `getElementsByClassName()` Select HTML tags by its class name.
+
+Usage:
+
+```html
+<p id = "IdOfP">Old string</p>
+<script>
+window.document.getElementById("IdOfP").innerText = "New string"
+</script>
+``` 
+
+#### Query selectors
+
+Modern aproach of selectors.
+
+* `querySelector()` Select the first HTML Tag
+* `querySelectorAll()` Not learned yet
+
+> `querySelector()` can be used to select HTML tag + ID/Class (`#` for ID or `.` for class)
+
+Usage:
+
+```html
+<p>String 1<p>
+<p id = "IdOfP">String 2</p>
+<p class = "ClassOfP">String 3</p> 
+<script>
+window.document.querySelector("p").innerText = "Select by HTML tag name"
+window.document.querySelector("#IdOfP").innerText = "Select by ID"
+window.document.querySelector(".ClassOfP").innerText = "Select by Class name"    
+</script>
+``` 
+
+### DOM Events
+
+It works alongside with functions().
+
+* `mouseenter`
+* `mouseout`
+* `mousemove`
+* `mousedown`
+* `mouseup`
+* `click`
+
+For all events, see [MDN Web Docs](https://developer.mozilla.org/pt-BR/docs/Web/Events).
+
+#### Event Listener
+
 <div class="wisdom">
 <img class="wisdony" src="https://upload.wikimedia.org/wikipedia/commons/1/17/RWS_Tarot_19_Sun.jpg" alt="">
 </div>
