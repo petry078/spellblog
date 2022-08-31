@@ -246,7 +246,7 @@ window.document.getElementById("IdOfP").innerText = "New string"
 Modern aproach of selectors.
 
 * `querySelector()` Select the first HTML Tag
-* `querySelectorAll()` Not learned yet
+* `querySelectorAll()` Creates a list of all elements. Not sure how it works.
 
 > `querySelector()` can be used to select HTML tag + ID/Class (`#` for ID or `.` for class)
 
