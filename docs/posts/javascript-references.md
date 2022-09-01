@@ -263,6 +263,17 @@ window.document.querySelector(".ClassOfP").innerText = "Select by Class name"
 </script>
 ``` 
 
+### innerText and innerHTML
+
+* `innerText` Write plain text on top of selected element;
+* `innerHTML` Write HTML on top of selected element;
+
+```html
+
+write the examples
+
+```
+
 ### DOM Events
 
 It works alongside with functions(). 
