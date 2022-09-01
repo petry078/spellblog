@@ -265,18 +265,64 @@ window.document.querySelector(".ClassOfP").innerText = "Select by Class name"
 
 ### DOM Events
 
-It works alongside with functions().
+It works alongside with functions(). 
+Events are called with reserved words, inside the `.html` file, like `onkeydown="functionName()"` or in the `.js` file with Event Listeners, like:
 
-* `mouseenter`
-* `mouseout`
-* `mousemove`
-* `mousedown`
-* `mouseup`
-* `click`
+```html
+<button id="myBtn">Try it</button>
 
-For all events, see [MDN Web Docs](https://developer.mozilla.org/pt-BR/docs/Web/Events).
+<p id="textField"></p>
 
-#### Event Listener
+<script>
+document.getElementById("myBtn").addEventListener("click", printDate);
+
+function printDate() {
+  document.getElementById("textField").innerHTML = Date();
+}
+</script>
+```
+
+Events have 37 categories:
+
+* Animation;
+* Asynchronous data fetching;
+* Clipboard;
+* Composition;
+* CSS transition;
+* Database;
+* DOM mutation;
+* Drag'n'drop, Wheel;
+* Focus;
+* Form;
+* Fullscreen;
+* Gamepad;
+* Gestures;
+* History;
+* HTML element content display management;
+* Inputs;
+* Keyboard;
+* Loading/unloading documents;
+* Manifests;
+* Media;
+* Messaging;
+* Mouse;
+* Network/Connection;
+* Payments;
+* Performance;
+* Pointer;
+* Print;
+* Promise rejection;
+* Sockets;
+* SVG;
+* Text selection;
+* Touch;
+* Virtual reality;
+* Real Time Communication (RTC);
+* Server-sent events;
+* Speech;
+* Workers.
+
+For all events, see [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/Events).
 
 <div class="wisdom">
 <img class="wisdony" src="https://upload.wikimedia.org/wikipedia/commons/1/17/RWS_Tarot_19_Sun.jpg" alt="">
