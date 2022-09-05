@@ -65,18 +65,15 @@ This last command will bring the pull request page ready to pull it to main bran
 
 ---
 
-### Git commands used
+## Git commands used
 
 ```git
 git status
 git clone gitURL
+git checkout -b NewBranch
 git add .
 git commit -m "commit description"
 git push
-```
-
-```git
-git checkout -b NewBranch
 git push --set-upstream origin NewBranch
 ```
 
