@@ -172,7 +172,6 @@ Binary operators `&&` and `||` deals with two operating and returns true or fals
 !false //true
 
 //Both need to be `true` to return `true`.
-
 true && true //true
 true && false //false
 false && false //false
@@ -269,10 +268,15 @@ window.document.querySelector(".ClassOfP").innerText = "Select by Class name"
 * `innerHTML` Write HTML on top of selected element;
 
 ```html
-
-write the examples
-
+<h1></h1>
+<p></p>
+<script>
+document.querySelector("h1").innerText="Inset only raw text";
+document.querySelector("p").innerHTML="Insert text with <strong>HTML Tags</strong>"
+</script>
 ```
+
+> Avoid using `innerHTML`, that can represent a risk of Cross-Site Scripting (XSS).
 
 ### DOM Events
 
