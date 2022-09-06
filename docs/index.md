@@ -11,7 +11,7 @@ footer: Made with VuePress v2.x and Markdown — Guilherme M. Petry 2022
 ### JavaScript references
 *20 Aug 2022*
 
-Faaaar from beying complete...
+My head hurts.
 
 <a href="https://petry078.github.io/spellblog/posts/javascript-references.html"><b>Read more!</b></a>
 
@@ -20,7 +20,7 @@ Faaaar from beying complete...
 ### GitHub once and for all
 *05 Aug 2022*
 
-The easiest way to make GitHub commits is using the Terminal, trust me
+Just the basics, but it will get you going.
 
 <a href="https://petry078.github.io/spellblog/posts/github-once-and-for-all.html"><b>Read more!</b></a>
 
