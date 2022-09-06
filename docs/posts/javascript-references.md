@@ -343,7 +343,7 @@ Mouse events example:
     </style>
 </body>
 ```
-``Hello ${name}`` example:
+`Hello ${name}` example:
 
 ```html
 <body>
