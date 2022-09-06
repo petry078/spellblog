@@ -296,6 +296,14 @@ function printDate() {
 </script>
 ```
 
+This can also be done with Arrow Functions:
+
+```javascript
+document.getElementById("myBtn").addEventListener("click", (printDate) => {
+    document.getElementById("textField").innerHTML = Date();
+})
+```
+
 Mouse events example:
 
 ```html
