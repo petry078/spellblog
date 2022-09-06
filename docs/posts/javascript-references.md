@@ -296,6 +296,45 @@ function printDate() {
 </script>
 ```
 
+Mouse events example:
+
+```html
+<body>
+    <main>
+    </main>
+
+    <script>
+        let main = document.querySelector("main")
+        //Events
+        main.addEventListener("mouseenter", mouseenterFunction)
+        main.addEventListener("mouseout", mouseoutFunction)
+        main.addEventListener("click", clickFunction)
+
+        function mouseenterFunction() {
+            main.innerText = "mouseenter event"
+            main.style.background = "red"
+        }
+        
+        function mouseoutFunction() {
+            main.innerText = "mouseout event"
+            main.style.background = "yellow"
+        }
+        
+        function clickFunction() {
+            main.innerText = "click event"
+            main.style.background = "purple"
+        }
+    </script>
+
+    <style>
+        main {
+            width: 150px;
+            height: 150px;
+            background-color: green;
+        }
+    </style>
+</body>
+```
 
 > For complete events list, see [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/Events).
 
