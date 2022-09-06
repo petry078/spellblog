@@ -343,6 +343,27 @@ Mouse events example:
     </style>
 </body>
 ```
+`Hello ${name}` example:
+
+```html
+<body>
+    <form>
+        <label for="inName">Name:</label>
+        <input type="text" name="" id="inName">
+        <input type="submit" value="print">
+    </form>
+
+    <h1></h1>
+
+<script>
+    let name = document.querySelector("form").inName.value
+    document.querySelector("form").addEventListener("submit", (printName) => {
+        document.querySelector("h1").innerText = `Hello, ${name}`
+        printName.preventDefault()
+    })
+</script>
+</body>
+```
 
 > For complete events list, see [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/Events).
 
