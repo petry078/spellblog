@@ -280,8 +280,7 @@ document.querySelector("p").innerHTML="Insert text with <strong>HTML Tags</stron
 
 ### DOM Events
 
-It works alongside with functions(). 
-Events are called with reserved words, inside the `.html` file, like `onkeydown="functionName()"` or in the `.js` file with Event Listeners, like:
+It works alongside with functions(). Events are called with reserved words, inside the `.html` file, like `onkeydown="functionName()"` or in the `.js` file with Event Listeners, like:
 
 ```html
 <button id="myBtn">Try it</button>
@@ -297,47 +296,8 @@ function printDate() {
 </script>
 ```
 
-Events have 37 categories:
 
-* Animation;
-* Asynchronous data fetching;
-* Clipboard;
-* Composition;
-* CSS transition;
-* Database;
-* DOM mutation;
-* Drag'n'drop, Wheel;
-* Focus;
-* Form;
-* Fullscreen;
-* Gamepad;
-* Gestures;
-* History;
-* HTML element content display management;
-* Inputs;
-* Keyboard;
-* Loading/unloading documents;
-* Manifests;
-* Media;
-* Messaging;
-* Mouse;
-* Network/Connection;
-* Payments;
-* Performance;
-* Pointer;
-* Print;
-* Promise rejection;
-* Sockets;
-* SVG;
-* Text selection;
-* Touch;
-* Virtual reality;
-* Real Time Communication (RTC);
-* Server-sent events;
-* Speech;
-* Workers.
-
-For all events, see [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/Events).
+> For complete events list, see [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/Events).
 
 <div class="wisdom">
 <img class="wisdony" src="https://upload.wikimedia.org/wikipedia/commons/1/17/RWS_Tarot_19_Sun.jpg" alt="">
