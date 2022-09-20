@@ -385,17 +385,11 @@ In addition to the Arithmetic operators, math can be done with the `Math.` funct
 ### Examples
 
 ```javascript
-let round1 = 8.4
-let round2 = 8.5
+console.log(Math.round(8.4)) //8
+console.log(Math.round(8.5)) //9
 
-console.log(Math.round(round1)) //8
-console.log(Math.round(round2)) //9
- 
-let n1 = 4.2
-let n2 = 4.9
-
-console.log(Math.ceil(n1)) //5
-console.log(Math.floor(n2)) //4
+console.log(Math.ceil(4.2)) //5
+console.log(Math.floor(4.9)) //4
 
 console.log(Math.random()) //0.7099176926811621
 ```
