@@ -366,8 +366,39 @@ Mouse events example:
 </script>
 </body>
 ```
-
 > For complete events list, see [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/Events).
+
+## Math functions
+
+In addition to the Arithmetic operators, math can be done with the `Math.` functions.
+
+### Rounding numbers
+
+* `Math.round(num)` return the closest number. Example `Math.round(4.4)` = `4` and `Math.round(4.5)` = `5`;
+* `Math.ceil(num)` return the next number. Example: `Math.ceil(4.2)` = `5`;
+* `Math.floor(num)` return the lower round number. Example: `Math.floor(4.2)` = `3`;
+
+### Generating random numbers
+
+`Math.random()` will return a random number between 0 and 1.
+
+### Examples
+
+```javascript
+let round1 = 8.4
+let round2 = 8.5
+
+console.log(Math.round(round1)) //8
+console.log(Math.round(round2)) //9
+ 
+let n1 = 4.2
+let n2 = 4.9
+
+console.log(Math.ceil(n1)) //5
+console.log(Math.floor(n2)) //4
+
+console.log(Math.random()) //0.7099176926811621
+```
 
 <div class="wisdom">
 <img class="wisdony" src="https://upload.wikimedia.org/wikipedia/commons/1/17/RWS_Tarot_19_Sun.jpg" alt="">
