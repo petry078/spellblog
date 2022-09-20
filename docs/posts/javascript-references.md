@@ -8,7 +8,9 @@ tags:
   - guide
 ---
 
-# JavaScript reference
+# JavaScript references
+
+In JavaScript, almost every data stored in a variable is called `object` and a program that 
 
 ## Primitive Data Types
 
