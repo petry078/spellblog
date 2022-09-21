@@ -375,8 +375,8 @@ In addition to the Arithmetic operators, math can be done with the `Math.` funct
 ### Rounding numbers
 
 * `Math.round(num)` return the closest number. Example `Math.round(4.4)` = `4` and `Math.round(4.5)` = `5`;
-* `Math.ceil(num)` return the next number. Example: `Math.ceil(4.2)` = `5`;
-* `Math.floor(num)` return the lower round number. Example: `Math.floor(4.2)` = `3`;
+* `Math.ceil(num)` round to bigger number. Example: `Math.ceil(4.2)` = `5`;
+* `Math.floor(num)` round to lower number. Example: `Math.floor(4.2)` = `4`;
 
 ### Generating random numbers
 
