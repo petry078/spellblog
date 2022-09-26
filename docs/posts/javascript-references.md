@@ -411,7 +411,7 @@ There are situations in which your program must analyze more than one condition.
 The `if...else` conditions can be written in three different structures:
 
 * Simple `if (condition == true){run}`;
-* Complete `if (condition == true){run}... else{run}`;
+* Composed `if (condition == true){run}... else{run}`;
 * Multiple `if (condition == true){run}... else if{run}...else{run}`.
 
 > Multiple conditions can have as many `else if` as necessary.
