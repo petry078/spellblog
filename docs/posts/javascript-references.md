@@ -396,6 +396,44 @@ console.log(Math.floor(4.9)) //4
 console.log(Math.random()) //0.7099176926811621
 ```
 
+## Conditionals
+
+Programs read data (input), process it, and return something. With **conditionals** you can have limitations to work with.
+
+The syntax in JavaScript, and most languages, are `if...else` and ` switch...case`.
+
+The condition (parameters) must be written with [comparison operators](#comparison-operators). Each comparison will return `true` or `false`.
+
+There are situations in which your program must analyze more than one condition. In that case, use [logical operators](#logical-operators) inside the parameter/condition slot. Example: `condition == true && condition == true` or `condition == true || condition != true`.
+
+### if...else
+
+The `if...else` conditions can be written in three different structures:
+
+* Simple `if (condition == true){run}`;
+* Complete `if (condition == true){run}... else{run}`;
+* Multiple `if (condition == true){run}... else if{run}...else{run}`.
+
+> Multiple conditions can have as many `else if` as necessary.
+
+```javascript
+let n1 = prompt("N1: ")
+let n2 = prompt("N2: ")
+let n3 = prompt("N3: ")
+let n4 = prompt("N4: ")
+
+let average = (n1 + n2 + n3 + n4) / 4
+
+if (average >= 6){
+    console.log("Approved!")
+} else if (average == 5) {
+    console.log("Need recovery")
+} else {
+    console.log("Disapproved")
+}
+```
+### switch...case
+
 <div class="wisdom">
 <img class="wisdony" src="https://upload.wikimedia.org/wikipedia/commons/1/17/RWS_Tarot_19_Sun.jpg" alt="">
 </div>
