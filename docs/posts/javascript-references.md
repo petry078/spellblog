@@ -156,11 +156,13 @@ Examples:
 
 ### Logical operators
 
+```
 | Operator  | Function       | Example                            |
 |-----------|----------------|------------------------------------| 
 |     !     | Not (negação)  | `(x < 10 && y > 1)` // true  	  |
 |    &&     | And (conjunção)| `(x == 5 || y == 5)` // false      |
-|    ||     | Or  (disjunção)| ```!(x == y)``` // true	          |
+|    ||     | Or  (disjunção)| ```!(x == y)``` // true            |
+```
 
 Unary operator `!` (not) only deals with one operating, turning 0 in 1 and 1 in 0. True to false, false to true.
 
