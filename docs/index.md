@@ -8,7 +8,7 @@ footer: Made with VuePress v2.x and Markdown — Guilherme M. Petry 2022
 
 ---
 
-### JavaScript references
+### :crystal_ball: JavaScript references
 *20 Aug 2022*
 
 JavaScript is, indeed, for the mad.
@@ -17,7 +17,7 @@ JavaScript is, indeed, for the mad.
 
 ---
 
-### GitHub once and for all
+### :rice_ball: GitHub once and for all
 *05 Aug 2022*
 
 Just the basics, but it will get you going.
@@ -26,7 +26,7 @@ Just the basics, but it will get you going.
 
 ---
 
-### Terminal commands
+### :pager: Terminal commands
 *26 Jul 2022*
 
 Remember! Those are not spells, yet...
@@ -35,7 +35,7 @@ Remember! Those are not spells, yet...
 
 ---
 
-### Markdown cheat sheet
+### :hourglass: Markdown cheat sheet
 *21 Jul 2022*
 
 Basic Markdown syntax
