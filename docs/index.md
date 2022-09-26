@@ -11,7 +11,7 @@ footer: Made with VuePress v2.x and Markdown — Guilherme M. Petry 2022
 ### JavaScript references
 *20 Aug 2022*
 
-My head hurts.
+JavaScript is, indeed, for the mad.
 
 <a href="https://petry078.github.io/spellblog/posts/javascript-references.html"><b>Read more!</b></a>
 
