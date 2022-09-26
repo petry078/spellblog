@@ -436,6 +436,27 @@ if (average >= 6){
 
 ## ∞. Other
 
+### Node.js
+
+JavaScript runs on browsers. With Node.js you can run it on the terminal. 
+
+> [Node.js](https://nodejs.org/).
+
+### [prompt-sync](https://github.com/heapwolf/prompt-sync)
+
+prompt-sync anables you to use `prompt` on the terminal.
+
+Run `npm install prompt-sync`. This will install `node_modules` and `package.json`.
+
+On your JavaScript file:
+
+```javascript
+const prompt = require("prompt-sync")();
+let promptData = prompt("Data: ")
+```
+
+
+
 <div class="wisdom">
 <img class="wisdony" src="https://upload.wikimedia.org/wikipedia/commons/1/17/RWS_Tarot_19_Sun.jpg" alt="">
 </div>
