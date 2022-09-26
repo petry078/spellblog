@@ -444,7 +444,7 @@ JavaScript runs on browsers. With Node.js you can run it on the terminal.
 
 ### [prompt-sync](https://github.com/heapwolf/prompt-sync)
 
-prompt-sync anables you to use `prompt` on the terminal.
+prompt-sync enables you to use `prompt` on the terminal.
 
 Run `npm install prompt-sync`. This will install `node_modules` and `package.json`.
 
