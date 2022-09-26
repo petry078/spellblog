@@ -10,7 +10,7 @@ tags:
 
 # JavaScript references
 
-## Primitive Data Types
+## 1. Primitive Data Types
 
 * number;
 	* infinity;
@@ -59,7 +59,7 @@ console.log(jsString.toLowerCase());
 var jsStringLenght = jsString.length
 console.log(jsStringLenght)
 ```
-## Operators
+## 2. Operators
 
 * Arithmetic (Aritiméticos);
 * Assignment (Atribuição);
@@ -212,7 +212,7 @@ var age = 18
 var r = age >= 18 ? "Adult" : "Child" // Adult (true)
 ```
 
-## Manipulating the Document Object Model (DOM)
+## 3. Manipulating the Document Object Model (DOM)
 
 The DOM tree:
 
@@ -370,7 +370,7 @@ Mouse events example:
 ```
 > For complete events list, see [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/Events).
 
-## Math functions
+## 4. Math functions
 
 In addition to the Arithmetic operators, math can be done with the `Math.` functions.
 
@@ -396,7 +396,7 @@ console.log(Math.floor(4.9)) //4
 console.log(Math.random()) //0.7099176926811621
 ```
 
-## Conditionals
+## 5. Conditionals
 
 Programs read data (input), process it, and return something. With **conditionals** you can have limitations to work with.
 
@@ -433,6 +433,8 @@ if (average >= 6){
 }
 ```
 ### switch...case
+
+## ∞. Other
 
 <div class="wisdom">
 <img class="wisdony" src="https://upload.wikimedia.org/wikipedia/commons/1/17/RWS_Tarot_19_Sun.jpg" alt="">
