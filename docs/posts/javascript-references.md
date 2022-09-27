@@ -434,17 +434,15 @@ if (average >= 6){
 ```
 ### switch...case
 
-## ∞. Other
-
-### Node.js
+## ∞. Node.js
 
 JavaScript runs on browsers. With Node.js you can run it on the terminal. 
 
 > [Node.js](https://nodejs.org/).
 
-### [prompt-sync](https://github.com/heapwolf/prompt-sync)
+#### prompt-sync
 
-prompt-sync enables you to use `prompt` on the terminal.
+[prompt-sync](https://github.com/heapwolf/prompt-sync) enables you to use `prompt` on the terminal.
 
 Run `npm install prompt-sync`. This will install `node_modules` and `package.json`.
 
@@ -455,7 +453,7 @@ const prompt = require("prompt-sync")();
 let promptData = prompt("Data: ")
 ```
 
-
+> [prompt-sync-template](https://github.com/petry078/prompt-sync-template)
 
 <div class="wisdom">
 <img class="wisdony" src="https://upload.wikimedia.org/wikipedia/commons/1/17/RWS_Tarot_19_Sun.jpg" alt="">
