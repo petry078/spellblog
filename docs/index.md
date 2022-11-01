@@ -8,12 +8,21 @@ footer: Made with VuePress v2.x and Markdown — Guilherme M. Petry 2022
 
 ---
 
+### :rice_scene: Bash Scriptage
+*01 Nov 2022*
+
+Command line scripts. This is starting to look like magic...
+
+<a href="https://petry078.github.io/spellblog/posts/bash-scriptage.html"><b>Read more!</b></a>
+
+---
+
 ### :crystal_ball: JavaScript references
 *20 Aug 2022*
 
 JavaScript is, indeed, for the mad.
 
-<a href="https://petry078.github.io/spellblog/posts/javascript-references.html"><b>Read more!</b></a>
+<a href="https://petry078.github.io/spellblog/posts/bash-scriptage.html"><b>Read more!</b></a>
 
 ---
 
