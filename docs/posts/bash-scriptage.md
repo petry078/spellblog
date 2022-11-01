@@ -8,7 +8,7 @@ tags:
   - how to create a bash script
 ---
 
-# Bash Scriptage
+# Simple Bash Scriptage
 
 Bourne Again Shell (Bash) scripts are scripts of commands used on Unix terminals, like the Linux terminal.
 
