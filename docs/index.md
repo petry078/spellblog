@@ -8,7 +8,7 @@ footer: Made with VuePress v2.x and Markdown — Guilherme M. Petry 2022
 
 ---
 
-### :rice_scene: Bash Scriptage
+### :rice_scene: Bash scriptage
 *01 Nov 2022*
 
 Command line scripts. This is starting to look like magic...
