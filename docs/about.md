@@ -25,4 +25,6 @@ Here I plan to write how to use the tools I'm currently learning about web devel
 
 You can also follow me on [GitHub](https://github.com/petry078) and [LinkedIn](https://linkedin.com/in/petry078). 
 
-And [here is the GitHub repository for this project!](https://github.com/petry078/spellblog)
+And [here is the GitHub repository for this project!](https://github.com/petry078/spellblog).
+
+[The Rider–Waite Tarot](https://en.wikipedia.org/wiki/Rider%E2%80%93Waite_Tarot).
