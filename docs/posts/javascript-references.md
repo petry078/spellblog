@@ -434,6 +434,35 @@ if (average >= 6){
 ```
 ### switch...case
 
+Just another structure to make conditionals. Usable when you need to return a different case for every value possible of a variable.
+
+Basic example:
+
+```JavaScript
+let neighborhood = prompt("neighborhood: ")
+let fee
+
+switch (neighborhood) {
+    case "center":
+        fee = 5
+    break
+
+    case "fragata":
+    case "caranda": 
+        fee = 7 //Both (fragada and caranda) will return 7
+    break
+
+    case "elysee":
+        fee = 10
+    break
+
+    default:
+        fee = 8
+}
+
+console.log(fee)
+```
+
 ## ∞. Node.js
 
 JavaScript runs on browsers. With Node.js you can run it on the terminal. 
