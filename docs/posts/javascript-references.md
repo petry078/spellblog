@@ -438,7 +438,7 @@ Just another structure to make conditionals. Usable when you need to return a di
 
 Basic example:
 
-```JavaScript
+```javascript
 let neighborhood = prompt("neighborhood: ")
 let fee
 
