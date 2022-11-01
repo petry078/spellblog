@@ -400,7 +400,7 @@ console.log(Math.random()) //0.7099176926811621
 
 Programs read data (input), process it, and return something. With **conditionals** you can have limitations to work with.
 
-The syntax in JavaScript, and most languages, are `if...else` and ` switch...case`.
+The syntax in JavaScript, and most languages, are `if...else`, ` switch...case` and with `ternary operators`.
 
 The condition (parameters) must be written with [comparison operators](#comparison-operators). Each comparison will return `true` or `false`.
 
@@ -462,6 +462,12 @@ switch (neighborhood) {
 
 console.log(fee)
 ```
+
+### Ternary conditions
+
+Simplified way to write contitionals. 
+
+See [Conditional or Ternary operators" at Chapter 2](https://madpress.art/spellblog/posts/javascript-references.html#conditional-or-ternary-operators).
 
 ## ∞. Node.js
 
