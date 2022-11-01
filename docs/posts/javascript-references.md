@@ -434,7 +434,7 @@ if (average >= 6){
 ```
 ### switch...case
 
-Just another structure to make conditionals. Usable when you need to return a different case for every value possible of a variable.
+Just another structure to make conditionals. Usable when you have a lot of options based on values of a variable, or when you need to return a different case for every value possible of a variable.
 
 Basic example:
 
