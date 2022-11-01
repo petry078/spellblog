@@ -1,7 +1,7 @@
 ---
 title: Bash Scriptage
 date: "2022-11-01"
-sidebar: auto
+sidebar: false
 tags:
   - bash
   - bash script
