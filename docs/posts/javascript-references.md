@@ -476,6 +476,56 @@ Repetitions, or Loops, (`Laços de Repetição`, in Portuguese) allows you to ru
 Loops need *braking points* and can be used with Conditional (if...else/switch... case).
 
 ### for
+
+The `for` syntax is composed by 3 instructions `for (initialValue; conditional; incremental/decremental){command}`: 
+
+```javascript
+for (let i = 1); i <= 10; i = i + 1){command}
+	||	    ||	      ||
+        \/          \/        \/
+{INITIAL VALUE}{CONDITIONAL}{INCREMENTAL}
+
+//This means that `i` starts as 1 and, and will run until it grows to 10, since each commands run, it grows by {INCREMENTAL/DECREMENTAL}, in that case 1.
+```
+> Incremental short: `i++`
+
+The last instruction can also be decremental: `i = 1 -1` or `i--`
+
+Example:
+
+```javascript
+let numbers = 0
+for (let i = 1; i <=4; i++){
+    numbers++
+}
+console.log(numbers)
+```
+
+Multiplication table example:
+```javscript
+let x = prompt("Number: ")
+
+for (let i = 1;  i <=10; i++){
+    let y = x * i
+    console.log(x + " * " + i + " = " + y)
+}
+
+```
+> [Run Multiplication Table on Replit](https://replit.com/@GuilhermePetry/multiplication-table)
+
+#### Adding Conditional to for loops
+
+```javascript
+for (let i = 1; i <1= 10; i++){
+	//command1
+	//command2
+	//command3
+	if (i % 2 == 0){
+		//command4
+	}
+}
+``` 
+
 ### while
 ### do... while
 
