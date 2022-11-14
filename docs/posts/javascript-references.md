@@ -469,13 +469,23 @@ Simplified way to write contitionals.
 
 See [Conditional or Ternary operators" at Chapter 2](https://madpress.art/spellblog/posts/javascript-references.html#conditional-or-ternary-operators).
 
+## 6. Repetitions (Loops)
+
+Repetitions, or Loops, (`Laços de Repetição`, in Portuguese) allows you to run one or more commands in a program or function as many times you need.
+
+Loops need *braking points* and can be used with Conditional (if...else/switch... case).
+
+### for
+### while
+### do... while
+
 ## ∞. Node.js
 
 JavaScript runs on browsers. With Node.js you can run it on the terminal. 
 
 > [Node.js](https://nodejs.org/).
 
-#### prompt-sync
+### prompt-sync
 
 [prompt-sync](https://github.com/heapwolf/prompt-sync) enables you to use `prompt` on the terminal.
 
