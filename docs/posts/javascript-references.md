@@ -502,7 +502,7 @@ console.log(numbers)
 ```
 
 Multiplication table example:
-```javscript
+```javascript
 let x = prompt("Number: ")
 
 for (let i = 1;  i <=10; i++){
