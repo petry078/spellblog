@@ -528,6 +528,23 @@ for (let i = 1; i <1= 10; i++){
 ``` 
 
 ### while
+
+It tests the conditional before, to see if it will run the commands or not.
+
+Examples:
+
+```javascript
+while (condition){
+	command
+} //While this condition is true, run {command}
+```
+```javascript
+let x = prompt("Number: ")
+while (x > 0) {
+    console.log("Oi")
+}
+```
+
 ### do... while
 
 ## ∞. Node.js
