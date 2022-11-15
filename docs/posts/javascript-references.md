@@ -481,8 +481,8 @@ The `for` syntax is composed by 3 instructions `for (initialValue; conditional; 
 
 ```javascript
 for (let i = 1); i <= 10; i = i + 1){command}
-	||	    ||	      ||
-        \/          \/        \/
+        ||          ||        ||
+	\/          \/        \/
 {INITIAL VALUE}{CONDITIONAL}{INCREMENTAL}
 
 //This means that `i` starts as 1 and, and will run until it grows to 10, since each commands run, it grows by {INCREMENTAL/DECREMENTAL}, in that case 1.
@@ -497,11 +497,12 @@ Example:
 let numbers = 0
 for (let i = 1; i <=4; i++){
     numbers++
-}
-console.log(numbers)
+    console.log(numbers)
+} //It will print numbers from 1 to 4.
 ```
 
 Multiplication table example:
+
 ```javascript
 let x = prompt("Number: ")
 
@@ -509,8 +510,8 @@ for (let i = 1;  i <=10; i++){
     let y = x * i
     console.log(x + " * " + i + " = " + y)
 }
-
 ```
+
 > [Run Multiplication Table on Replit](https://replit.com/@GuilhermePetry/multiplication-table)
 
 #### Adding Conditional to for loops
