@@ -9,7 +9,7 @@ footer: Made with VuePress v2.x and Markdown — Guilherme M. Petry 2022
 ---
 
 ### :tea: Learn web security with Helmet.js
-*01 Nov 2022*
+*31 Jan 2023*
 
 Get to know more about headers, caching, CDN and web vulnerabilities.
 
@@ -31,7 +31,7 @@ Command line scripts. This is starting to look like magic...
 
 JavaScript is, indeed, for the mad.
 
-<a href="https://petry078.github.io/spellblog/posts/bash-scriptage.html"><b>Read more!</b></a>
+<a href="https://petry078.github.io/spellblog/posts/javascript-references.html"><b>Read more!</b></a>
 
 ---
 
