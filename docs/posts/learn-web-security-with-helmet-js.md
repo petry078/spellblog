@@ -52,7 +52,7 @@ On `app.js` write `app.use(helmet());` to include all manual configurations list
 > Test repository: [https://replit.com/@GuilhermePetry/boilerplate-infosec](https://replit.com/@GuilhermePetry/boilerplate-infosec)
 
 <div class="wisdom">
-<img class="wisdony" src="https://upload.wikimedia.org/wikipedia/commons/9/9f/Pents02.jpg" alt="">
+<img class="wisdony" src="https://upload.wikimedia.org/wikipedia/commons/1/11/Wands01.jpg" alt="">
 </div>
 
 <style>
