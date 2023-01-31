@@ -50,3 +50,18 @@ On `app.js` write `app.use(helmet());` to include all manual configurations list
 * `app.use(helmet.contentSecurityPolicy({ directives: { defaultSrc: ["'self'"], scriptSrc: ["'self'", "trusted-cdn.com"] }} ));` Content Security Policy will help protect against data injection attacks, Cross-Site Scripting (XSS), Content Security Policy (CPS) attacks, undesired tracking, malicious frames and more.
 
 > Test repository: [https://replit.com/@GuilhermePetry/boilerplate-infosec](https://replit.com/@GuilhermePetry/boilerplate-infosec)
+
+<div class="wisdom">
+<img class="wisdony" src="https://upload.wikimedia.org/wikipedia/commons/9/9f/Pents02.jpg" alt="">
+</div>
+
+<style>
+  .wisdom {
+    display: flex;
+    justify-content: center;
+  }
+
+  .wisdony {
+  height: 120px;
+  }
+</style>
