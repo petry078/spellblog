@@ -8,6 +8,15 @@ footer: Made with VuePress v2.x and Markdown — Guilherme M. Petry 2022
 
 ---
 
+### :tea: Learn web security with Helmet.js
+*01 Nov 2022*
+
+Get to know more about headers, caching, CDN and web vulnerabilities.
+
+<a href="https://petry078.github.io/spellblog/posts/learn-web-security-with-helmet-js.html"><b>Read more!</b></a>
+
+---
+
 ### :rice_scene: Bash scriptage
 *01 Nov 2022*
 
