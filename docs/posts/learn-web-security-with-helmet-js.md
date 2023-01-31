@@ -21,7 +21,7 @@ According to [stackshare.io](https://stackshare.io/expressjs), Express.js is use
 
 Run `npm install helmet` and in your Express application (app.js): 
 
-```JavaScript
+```javascript
 const express = require("express");
 const helmet = require("helmet");
 const app = express();
