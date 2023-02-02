@@ -21,7 +21,7 @@ But, don't worry about it. Most Linux distributions comes with one of those by s
 
 ## Directory Structure
 
-Everything starts from `root` with is `/`.
+Everything starts from the `root` which is `/`.
 
 From there:
 
@@ -83,6 +83,7 @@ From there:
 |-----------------|-------------------------------------------------------------|
 | top             | Print system processes                                      |
 | ps aux          | Print all system processes                                  |
+```
 
 ### Utility
 
@@ -98,7 +99,6 @@ From there:
 | curl URL        | Send GET request to URL. Try "curl wttr.in"                 |
 | curl -o URL     | Download content (alphabetic "o", not zero)                 |
 | !$              | Copy and paste last command entry, to command prompt        |
-
 ```
 
 > Remember! Those are not spells. We will get there...
@@ -113,7 +113,7 @@ It works with .webp/.jpeg to .png
 
 > Web developers love the .webp/.webm. file format. It is smaller and loads faster. But content creators hate it. .webp/.webm doesn't open on preview apps.
 
-> I'm working on a cURL post.
+> This look shit... Don't worry. I'm working on a cURL post.
 
 <div class="wisdom">
 <img class="wisdony" src="https://upload.wikimedia.org/wikipedia/commons/2/24/Cups09.jpg" alt="">
