@@ -62,6 +62,24 @@ From there:
 | xdg-open "file" | "xdg-open index.md" will open index.md form current folder  |
 ```
 
+### Package Management 
+
+```
+| Command         | Description                                                 |
+|-----------------|-------------------------------------------------------------|
+| apt update      |  
+| apt upgrade     | 
+| apt search      |  
+| apt install     |
+| apt remove      |
+| apt purge       |
+| dpkg -l         |
+| dpkg -r <app>   |
+```
+#### Important files
+
+* `cat /etc/apt/sources.list` will print where system search for packages.
+
 ### File management and editing
 
 ```
@@ -74,16 +92,29 @@ From there:
 | cat file.md     | Reads and prints file on terminal                           |
 | rm / rm -r      | Delete file / delete folder (may need to run as sudo)       |
 | code .          | Open directory on Visual Studio Code                        |
+| grep            | Search keyword in file (grep "keyword" file.md)             |
+| egrep           | Search with multiple keywords (egrep "zsh|bash" file.md)    |
+| cut             | Cut selected text inside file                               | 
+| sed             | Substitution (sed 's/texto1/texto2' index.md)               | 
 ```
 
 ### Networking and processes
 
 ```
-| Command         | Description                                                 |
-|-----------------|-------------------------------------------------------------|
-| top             | Print system processes                                      |
-| ps aux          | Print all system processes                                  |
+| Command                     | Description                                     |
+|-----------------------------|-------------------------------------------------|
+| top                         | Print system processes                          |
+| ps aux                      | Print all system processes                      |
+| ifconfig                    | Print network interfaces                        |
+| ip                          | Print network interfaces + IP and MAC addresses |
+| systemctl status networking | Print network status                            |  
+| systemctl start networking  | Network controls (start, stop, restart)         |
+| route                       | Print system routes (route -n)                  | 
+| netstat (netstat -l [list]) | Print network open doors and active connections |
 ```
+#### Important files
+
+* `cat /etc/network/interfaces` will print network configuration files.
 
 ### Utility
 
