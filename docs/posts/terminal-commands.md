@@ -67,14 +67,14 @@ From there:
 ```
 | Command         | Description                                                 |
 |-----------------|-------------------------------------------------------------|
-| apt update      |  
-| apt upgrade     | 
-| apt search      |  
-| apt install     |
-| apt remove      |
-| apt purge       |
-| dpkg -l         |
-| dpkg -r <app>   |
+| apt update      | Updates packages lists. Important before `apt upgrade`      | 
+| apt upgrade     | Actually updates the packages (apps).                       | 
+| apt search      | Searches for the specific app `apt search <appName>`.       | 
+| apt install     | Install app `apt install <appName>`.                        |
+| apt remove      | Remove app `apt remove <appName>`.                          |
+| apt purge       | Removes app and all dependencies `apt remove <appName>`.    |
+| dpkg -l         | Print all apps from packages.                               |
+| dpkg -r <app>   | Remove <app>.                                               |
 ```
 #### Important files
 
