@@ -111,6 +111,7 @@ From there:
 | systemctl start networking  | Network controls (start, stop, restart)         |
 | route                       | Print system routes (route -n)                  | 
 | netstat (netstat -l [list]) | Print network open doors and active connections |
+| dig +short <url>            | Print IP from from domain (dig +short hello.com)|
 ```
 #### Important files
 
