@@ -18,3 +18,12 @@ or
 1. `yarn run docs:dev`
 
 Commit the changes to the main branch and the GitHub Pages will do its job.
+
+## Future work
+
+* [] New home page. Same GIF. Word by word professional definition and links. Button to spells.
+* [] Old home will become `/spells`. "At this point... this can be called spells".
+* [] Navbar update.
+* [] Date-oriented filename refactor. Messy I know...
+
+## Changelog
