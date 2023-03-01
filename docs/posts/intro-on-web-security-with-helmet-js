@@ -9,7 +9,7 @@ tags:
   - websecurity
 ---
 
-# Learn web security with Helmet.js
+# Intro on web security with Helmet.js
 
 "Helmet helps you secure your Express apps by setting various HTTP headers. It's not a silver bullet, but it can help!", says the developers. It is a middleware (communication software) that deals with HTTP headers and also offers security modules for the [Express](https://expressjs.com) (Node.js framework) applications.
 
