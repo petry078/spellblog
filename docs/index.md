@@ -8,6 +8,15 @@ footer: Made with VuePress v2.x and Markdown — Guilherme M. Petry 2022
 
 ---
 
+### :tanabata_tree: Set up Kali Linux and Metasploitable on VirtualBox
+*03 Mar 2023*
+
+After a hours trying to fix all errors. Yeah. Maybe...
+
+<a href="https://petry078.github.io/spellblog/posts/kali-metasploitable-virtualbox.html"><b>Read more!</b></a>
+
+---
+
 ### :tea: Intro on web security with Helmet.js
 *31 Jan 2023*
 
