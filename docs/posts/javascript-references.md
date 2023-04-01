@@ -547,6 +547,25 @@ while (x > 0) {
 
 ### do... while
 
+It executes the command at least once, even if the condition is not true.
+
+Examples:
+
+```javascript
+do {
+	command
+} while (condition);
+```
+
+```javascript
+let x = 0;
+
+do {
+    x++;
+    console.log(x)
+} while (x < 10)
+```
+
 ## ∞. Node.js
 
 JavaScript runs on browsers. With Node.js you can run it on the terminal. 
