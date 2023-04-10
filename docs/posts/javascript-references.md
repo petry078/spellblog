@@ -568,7 +568,38 @@ do {
 
 ### break and continue
 
-{here}
+The `break` and `continue` are two commands that can be used inside JavaScript loops.
+
+* `break`: jumps out of a loop.
+* `continue`: jumps in the beginning of the loop.
+
+```javascript
+while (condition1) {
+    commands
+    if (condition2) {
+        continue //It will test the condition and make the program continue in case of true.
+    }
+    commands
+    if (condition3) {
+        break //It breaks the loop, making the program ignore everything left inside the loop. If there is commands after the break, they will not be executed.
+    }
+    commands
+}
+commands
+```
+
+Example:
+
+```javascript
+do {
+    const num = Number(prompt("Number: "))
+    if (num == 0 || isNaN(num)){
+        break
+    } else {
+        continue
+    }
+} while (true)
+```
 
 ## ∞. Node.js
 
@@ -580,6 +611,8 @@ JavaScript runs on browsers. With Node.js you can run it on the terminal.
 
 [prompt-sync](https://github.com/heapwolf/prompt-sync) enables you to use `prompt` on the terminal.
 
+> It requires Node.js.
+
 Run `npm install prompt-sync`. This will install `node_modules` and `package.json`.
 
 On your JavaScript file:
@@ -588,6 +621,9 @@ On your JavaScript file:
 const prompt = require("prompt-sync")();
 let promptData = prompt("Data: ")
 ```
+On the terminal, open the folder where your JavaScript file is and run:
+
+`node <fileName>.js`
 
 > [prompt-sync-template](https://github.com/petry078/prompt-sync-template)
 
