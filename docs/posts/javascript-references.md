@@ -566,6 +566,10 @@ do {
 } while (x < 10)
 ```
 
+### break and continue
+
+{here}
+
 ## ∞. Node.js
 
 JavaScript runs on browsers. With Node.js you can run it on the terminal. 
