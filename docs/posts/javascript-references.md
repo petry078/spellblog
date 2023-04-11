@@ -473,7 +473,7 @@ See [Conditional or Ternary operators" at Chapter 2](https://madpress.art/spellb
 
 Repetitions, or Loops, (`Laços de Repetição`, in Portuguese) allows you to run one or more commands in a program or function as many times you need.
 
-Loops need *braking points* and can be used with Conditional (if...else/switch... case).
+Loops need *braking points* and can be used with Conditional (if...else/switch... case/break/continue).
 
 ### for
 
@@ -599,6 +599,37 @@ do {
         continue
     }
 } while (true)
+```
+
+### Counters and accumulators
+
+Counters and accumulators are ways to track how many times a particular action or event has occurred. They are commonly used inside loops to count the number of iterations (iteration is a lap made by the program inside a loop or code block).
+
+However, counters and accumulators are commonly used inside loops, they can also be used outside of loops, to count occurrences of an event or action that occurs multiple times in the program.
+
+In JavaScript, counters and accumulators need to be initiated, usually receiving the value of 0. Since they are used to count cycles, you need to know how many cycles (iterations) it has done already, that is why to start a counter with 0.
+
+**Counters** represent `a variable = a variable + 1 (the count factor)`, **accumulators** represent `a variable = a variable + another variable`, and they can be written with the `+=` operator.
+
+Counter example:
+
+```javascript
+let result = 0 //variable initiation
+result = result + 1 //traditional way
+result += 1 //with the += operator
+``` 
+Accumulator example:
+
+```javascript
+let result = 0 //variable initiation
+result = result + price //traditional way
+result += price //with the += operator
+```
+
+Loop with counter example:
+
+```javascript
+
 ```
 
 ## ∞. Node.js
