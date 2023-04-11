@@ -629,7 +629,11 @@ result += price //with the += operator
 Loop with counter example:
 
 ```javascript
-
+let counter = 0
+for (let i = 0; i < 10; i++) {
+  counter += 1
+  console.log(counter)
+}
 ```
 
 ## ∞. Node.js
