@@ -5,7 +5,7 @@ sidebar: false
 tags:
   - bash
   - bash script
-  - how to create a bash script
+  - how-to create a bash script
 ---
 
 # Bash Scriptage
