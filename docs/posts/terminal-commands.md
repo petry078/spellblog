@@ -145,7 +145,7 @@ It works with .webp/.jpeg to .png
 
 > Web developers love the .webp/.webm. file format. It is smaller and loads faster. But content creators hate it. .webp/.webm doesn't open on preview apps.
 
-> This look shit... Don't worry. I'm working on a cURL post.
+> This look shit... Don't worry. I'm working on a cURL post. Maybe after the `dig` and the `traceroute` commands.
 
 <div class="wisdom">
 <img class="wisdony" src="https://upload.wikimedia.org/wikipedia/commons/2/24/Cups09.jpg" alt="">
