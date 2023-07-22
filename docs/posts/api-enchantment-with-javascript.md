@@ -18,23 +18,41 @@ tags:
 
 Fetch API GET request:
 
-Request: call `fetch(./rainbow.jpg)`
-Response: a stream of data in a format of a file. Examples: JSON, plain text, HTML, XML, PNG, JPG, GIF, SVG, PDF, CSV, binary files and error responses (status code).
+Request: call `fetch(<path>)`.
+Response: a stream of data in a format of a file (JSON, plain text, HTML, XML, PNG, JPG, GIF, SVG, PDF, CSV, binary files and error responses [status code]).
 
-```javascript
-fetch('https://api.example.com/data')
-  .then(response => response.json())
-  .then(data => {
-    // Handle the data returned by the server
-    console.log(data);
-  })
-  .catch(error => {
-    // Handle any errors that occurred during the request
-    console.error(error);
-  });
+Image from the web example:
+
+```html
+    <img src="" id="rainbow">
+    <script>
+        catchRainbow().then(response => {console.log('all good!')})
+
+        async function catchRainbow(){
+            const response = await fetch('https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Double-alaskan-rainbow.jpg/1200px-Double-alaskan-rainbow.jpg')
+            const blob = await response.blob()
+            document.getElementById('rainbow').src = URL.createObjectURL(blob)
+            console.log(blob)
+        }
+    </script>
 ```
 
-> Not so fast, internet traveler! You are entering the Network — Application realm of knowledge. This was made to work and be clear, but was established in ancient times. Understanding it is a lifelong journey.
+`.txt` file from the same domain example:
+
+```html
+    <p id="rainbow"></p>
+    <script>
+        catchRainbow()
+
+        async function catchRainbow(){
+            const response = await fetch('/index.txt')
+            const text = await response.text()
+            const printedResponse = String(text)
+            document.getElementById("rainbow").innerText = printedResponse
+        }
+        
+    </script>
+```
 
 ### {Promises context}
 
