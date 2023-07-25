@@ -54,12 +54,22 @@ Image from the web example:
     </script>
 ```
 
-### {Promises context}
+Parsing and logging a `.csv` file from /:
 
-> **Spellsource**: https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API
+```javascript
+getData()
 
-> Courses: 
+async function getData(){
+    const response = await fetch('fileName.csv') //ask for it
+    const data = await response.text()           //treat the data, in this case text
+    console.log(data)                            //do something with it
 
-Promises: https://www.youtube.com/playlist?list=PLRqwX-V7Uu6bKLPQvPRNNE65kBL62mVfx
-
-Working with Data and APIs in JavaScript: https://www.youtube.com/playlist?list=PLRqwX-V7Uu6YxDKpFzf_2D84p0cyk4T7X
+    const table = data.split('\n').slice(1)      //spliting it by line break `\n`
+    table.forEach(row => {                       //array.forEach(splitedProduct => { 
+        const columns = row.split(',')           //split again separating it by columns}
+        const year = columns[0]                  //defining what the first column is
+        const temp = columns[1]                  //defining what the second column is
+        console.log(year, temp)                  //logging it
+    })
+}
+```
