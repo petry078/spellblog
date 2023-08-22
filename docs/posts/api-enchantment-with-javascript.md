@@ -72,4 +72,26 @@ async function getData(){
         console.log(year, temp)                  //logging it
     })
 }
+
 ```
+Parsing and logging a `.csv` file from web server:
+
+```javascript
+    getData()
+
+    async function getData () {
+        const response = await fetch('https://raw.githubusercontent.com/petry078/exercicios-javascript/main/planilha.csv')
+        const data = await response.text()
+        const table = data.split('\n').slice(1)
+
+            table.forEach(elt => {
+                const columns = elt.split(',')
+                const year = columns[0]
+                const temp = columns[1]
+                console.log(columns)
+                console.log(year, temp)
+            })
+
+    }
+```
+
