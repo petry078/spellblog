@@ -25,7 +25,31 @@ In JavaScript we write objects. Objects have **properties**, that can be:
 * **Primitive Values**;
 * **Functions**.
 
-There are several built-in 
+There are several built-in objects in JavaScript:
+
+* `Object`;
+* `Function`; 
+* `Boolean`;
+* `Symbol`; 
+* Various `Error`
+* `Math`;
+* `Number`;
+* `Date`; 
+* `String`; 
+* `RegExp`;
+* `Array`;
+* Nine different kinds of `Typed Arrays`; 
+* `Map`;
+* `Set`;
+* `JSON`; 
+* `ArrayBuffer`;
+* `SharedArrayBuffer`;
+* `DataView`;
+* `Promise`;
+* `Proxy`;
+* `Reflect`.
+
+> Keep writing: https://tc39.es/ecma262/#sec-objects
 
 ### Primitive Values
 
