@@ -1,16 +1,20 @@
 ---
-title: JavaScript references
+title: JavaScript cast specification
 date: "2022-08-20"
 sidebar: auto
 tags:
   - javascript
+  - ecmascript
   - reference
-  - guide
 ---
 
-# JavaScript references
+# JavaScript cast specification
 
-## 1. Primitive Data Types
+*"ECMAScript is object-based: basic language and host facilities are provided by objects, and an ECMAScript program is a cluster of communicating objects. An ECMAScript object is an unordered collection of properties each with 0 or more attributes ... an object is a member of the remaining built-in type Object; and a method is a function associated with an object via a property."*
+
+> [ECMA-262](https://www.ecma-international.org/wp-content/uploads/ECMA-262_1st_edition_june_1997.pdf), June 1997, the first specification of JavaScript.
+
+## 1. Primitive Values (Data Types)
 
 * number;
 	* infinity;
@@ -19,11 +23,14 @@ tags:
 * boolean;
 * null;
 * undefined;
+* symbol;
 * object;
 	* array;
 * function.
 
-Use `typeof varName` to reveal data type of element.
+Use `typeof varName` to reveal data type of element at runtime.
+
+## 2. Objects
 
 ### Number verification
 
@@ -59,7 +66,7 @@ console.log(jsString.toLowerCase());
 var jsStringLenght = jsString.length
 console.log(jsStringLenght)
 ```
-## 2. Operators
+## 3. Operators
 
 * Arithmetic (Aritiméticos);
 * Assignment (Atribuição);
@@ -212,16 +219,14 @@ var age = 18
 var r = age >= 18 ? "Adult" : "Child" // Adult (true)
 ```
 
-## 3. Manipulating the Document Object Model (DOM)
+## 4. Document Object Model (DOM)
 
 The DOM tree:
 
-```html
-window - location
-       - document - <html> - <head>
-			      - <body> - <main> - <p>
-			      - other HTML tags
-       - history	
+```
+window.location
+      .history
+      .document.<call to HTML tag (selector)>    	
 ```
 
 ### Selectors
@@ -370,7 +375,7 @@ Mouse events example:
 ```
 > For complete events list, see [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/Events).
 
-## 4. Math functions
+## 5. Math functions
 
 In addition to the Arithmetic operators, math can be done with the `Math.` functions.
 
@@ -396,7 +401,7 @@ console.log(Math.floor(4.9)) //4
 console.log(Math.random()) //0.7099176926811621
 ```
 
-## 5. Conditionals
+## 6. Conditionals
 
 Programs read data (input), process it, and return something. With **conditionals** you can have limitations to work with.
 
@@ -469,7 +474,7 @@ Simplified way to write contitionals.
 
 See [Conditional or Ternary operators" at Chapter 2](https://madpress.art/spellblog/posts/javascript-references.html#conditional-or-ternary-operators).
 
-## 6. Repetitions (Loops)
+## 7. Repetitions (Loops)
 
 Repetitions, or Loops, (`Laços de Repetição`, in Portuguese) allows you to run one or more commands in a program or function as many times you need.
 
@@ -636,7 +641,7 @@ for (let i = 0; i < 10; i++) {
 }
 ```
 
-## ∞. Node.js
+## Node.js
 
 JavaScript runs on browsers. With Node.js you can run it on the terminal. 
 
