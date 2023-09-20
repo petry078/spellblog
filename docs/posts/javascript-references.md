@@ -76,11 +76,8 @@ Use `typeof varName` to reveal data type of element at runtime.
 ### String to number
 
 * `Number(varName)` coverts to number; 
-
-or (old way):
-
-* `Number.parseInt(varName)` coverts to whole number; 
-* `Number.parseFloat(varName)` converts to floating-point number.
+* `Number.parseInt(varName)` coverts to whole number (old ECMAScript);
+* `Number.parseFloat(varName)` converts to floating-point number, (old ECMAScript).
 
 ### Number to string
 
