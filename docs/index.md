@@ -35,7 +35,7 @@ Command line scripts. This is starting to look like magic...
 
 ---
 
-### :crystal_ball: JavaScript references
+### :crystal_ball: JavaScript cast specification
 *20 Aug 2022*
 
 JavaScript is, indeed, for the mad.
