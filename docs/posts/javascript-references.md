@@ -10,27 +10,40 @@ tags:
 
 # JavaScript cast specification
 
-*"ECMAScript is object-based: basic language and host facilities are provided by objects, and an ECMAScript program is a cluster of communicating objects. An ECMAScript object is an unordered collection of properties each with 0 or more attributes ... an object is a member of the remaining built-in type Object; and a method is a function associated with an object via a property."*
+## 1. Objects
 
-> [ECMA-262](https://www.ecma-international.org/wp-content/uploads/ECMA-262_1st_edition_june_1997.pdf), June 1997, the first specification of JavaScript.
+*"ECMAScript is an object-oriented programming language for performing computations and manipulating computational objects within a host environment... In ECMAScript, an object is a collection of zero or more properties... Properties are containers that hold other objects, primitive values, or functions"*
 
-## 1. Primitive Values (Data Types)
+*"...An object is a member of the built-in type Object; and a function is a callable object. A function that is associated with an object via a property is called a method."*
 
-* number;
-	* infinity;
-	* NaN;
-* string;
-* boolean;
-* null;
-* undefined;
-* symbol;
-* object;
-	* array;
-* function.
+> The [ECMAScript 262 ® 2024 Language Specification](https://tc39.es/ecma262/)
+
+In JavaScript we write objects. Objects have **properties**, that can be: 
+
+* Nothing;
+* Other **Objects**;
+* **Primitive Values**;
+* **Functions**.
+
+There are several built-in 
+
+### Primitive Values
+
+* Undefined;
+* Null; 
+* Boolean;
+* Number; 
+* BigInt; 
+* String;
+* Symbol.
 
 Use `typeof varName` to reveal data type of element at runtime.
 
-## 2. Objects
+### Functions
+
+{fuctions text}
+
+## 2. Syntax (cast)
 
 ### Number verification
 
