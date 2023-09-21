@@ -49,7 +49,9 @@ There are several built-in objects in JavaScript:
 * `Proxy`;
 * `Reflect`.
 
-> Keep writing: https://tc39.es/ecma262/#sec-objects
+Objects can have methods, wich are functions that will use the object properties data. 
+
+*"When a function is called as a method of an object, the object is passed to the function as its **this** value."*
 
 ### Primitive Values
 
@@ -65,23 +67,32 @@ Use `typeof varName` to reveal data type of element at runtime.
 
 ### Functions
 
-{fuctions text}
+A function is a callable object, with a set of commands that will be runned when the function is called. Example `function()`. 
 
-## 2. Syntax (cast)
+Functions can return something and have scope `{}` defined.
 
-### Number verification
+Functions can be called as methods, that will run with the object properties data. Example: `object.functionAsMethod()` just like `console.log()`.
 
-`console.log(Number.isInteger(12))` will check if number it is floating-point number.
+As like an object it is, functions can have properties and methods.
 
-### String to number
+```js
+function(){
+ commands
+}
+```
+
+## 2. Strings and Numbers
 
 * `Number(varName)` coverts to number; 
-* `Number.parseInt(varName)` coverts to whole number (old ECMAScript);
-* `Number.parseFloat(varName)` converts to floating-point number, (old ECMAScript).
+* `String(varName)` converts to string;
+* `Number.parseInt(varName)` coverts to whole number;
+* `Number.parseFloat(varName)` converts to floating-point number.
+* `console.log(Number.isInteger(12))` will check if number is floating-point.
 
-### Number to string
-
-* `String(varName)`.
+```js
+let fu = "bar" //string
+let fuu = 123 //number
+```
 
 ### Template strings
 
