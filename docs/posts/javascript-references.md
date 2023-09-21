@@ -688,7 +688,7 @@ for (let i = 0; i < 10; i++) {
 
 ## Node.js
 
-JavaScript runs on browsers. With Node.js you can run it on the terminal. 
+JavaScript runs on browsers, as client side code. With Node.js you can run it as a server. 
 
 > [Node.js](https://nodejs.org/).
 
