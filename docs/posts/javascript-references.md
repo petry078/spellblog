@@ -685,6 +685,52 @@ for (let i = 0; i < 10; i++) {
   console.log(counter)
 }
 ```
+## 8. Arrays
+
+Different from variables, that hold only one data entry, arrays can hold many values. Its values can be the same as from the objects, *all the JavaScript things*.
+
+> Arrays can be declared with `const` even when your values may be changed. What `const` can't handle being essentially reassigned.
+
+```javascript
+const arr = ["string1", "string2", 12] //Normal array of strings and number
+const newArray = new Array("string1", "string2", 12) //Used as constructor.
+```
+
+Array values are counted starting from 0 (zero) and the values are selected with its index number. Example:
+
+```javascript
+const arr = ["string1", "string2", 12, 15, "string3"]
+
+console.log(arr[0])
+console.log(arr[1])
+console.log(arr[2])
+console.log(arr[3])
+console.log(arr[4])
+console.log(arr[5])
+
+//Value rewrite:
+arr[0] = "NewValue"
+```
+
+### Array methods
+
+{explicar eles}
+
+* `arr.push()`
+* `arr.unshift()`
+* `arr.pop()`
+* `arr.shift()`
+* `arr.splice()`
+* `arr.slice()`
+* `arr.push()`
+
+{exemplos}
+
+### Array properties
+
+* `arr.length`
+
+{exemplos}
 
 ## Node.js
 
