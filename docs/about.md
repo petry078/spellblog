@@ -3,20 +3,20 @@ sidebar: false
 home: true
 heroText: null
 tagline: null
-footer: Made with VuePress v2.x and Markdown — Guilherme M. Petry 2022
+footer: Made with VuePress 2 and Markdown — Guilherme M. Petry 2022
 ---
 
 # About
 
-Welcome internet traveler!
+Welcome, internet traveler!
 
-This is a blog with **VuePress**. Here, **HTML** code is generated after **Markdown** text. Who dosent love Markdown, right?
+I'm Guilherme Petry, cyberwich, journalist, tech chronicler, writer, web developer, and cybersecurity apprentice.
 
-The VuePress framework makes all those **shenanigans**, markdown to HTML rendering, and front-end routing.
+You are now reading my narrated learning into the depths of computer witchcraft, programming spellcasting, and code chronicles.
 
-Here you will find knowledge on post-modern spells.
+Here you will find some uncovered knowledge on post-modern spells.
 
-**Wanna see something cool I built?**
+**Wanna see another cool project?**
 
 **↓ Click! ↓**
 
@@ -24,6 +24,6 @@ Here you will find knowledge on post-modern spells.
 
 Send me some smoke signs on [GitHub](https://github.com/petry078) or [LinkedIn](https://linkedin.com/in/petry078). 
 
-And [here is the GitHub repository for this project!](https://github.com/petry078/spellblog).
+Here is the [GitHub repository](https://github.com/petry078/spellblog) for this project.
 
 [The Rider–Waite Tarot](https://en.wikipedia.org/wiki/Rider%E2%80%93Waite_Tarot).

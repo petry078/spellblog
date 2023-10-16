@@ -12,7 +12,7 @@ module.exports = {
     theme: defaultTheme({
         navbar: [
             {
-                text: 'Posts',
+                text: 'Spells',
                 link: '/',
             },
             {
