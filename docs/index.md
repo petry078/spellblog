@@ -8,12 +8,21 @@ footer: Made with VuePress 2 and Markdown — Guilherme M. Petry 2022
 
 ---
 
+### :milky_way: API enchantment with JavaScript
+*01 Jul 2023*
+
+Computing power and black magic do not come from just one source.
+
+<a href="https://petry078.github.io/spellblog/posts/2023-07-01-api-enchantment-with-javascript.html"><b>Read more!</b></a>
+
+---
+
 ### :tanabata_tree: Set up Kali Linux and Metasploitable on VirtualBox
 *03 Mar 2023*
 
 After a hours trying to fix all errors. Yeah. Maybe...
 
-<a href="https://petry078.github.io/spellblog/posts/kali-metasploitable-virtualbox.html"><b>Read more!</b></a>
+<a href="https://petry078.github.io/spellblog/posts/2023-03-03-kali-metasploitable-virtualbox.html"><b>Read more!</b></a>
 
 ---
 
@@ -22,7 +31,7 @@ After a hours trying to fix all errors. Yeah. Maybe...
 
 Get to know more about headers, caching, CDN and web vulnerabilities.
 
-<a href="https://petry078.github.io/spellblog/posts/intro-on-web-security-with-helmet-js.html"><b>Read more!</b></a>
+<a href="https://petry078.github.io/spellblog/posts/2023-01-31-intro-on-web-security-with-helmet-js.html"><b>Read more!</b></a>
 
 ---
 
@@ -31,7 +40,7 @@ Get to know more about headers, caching, CDN and web vulnerabilities.
 
 Command line scripts. This is starting to look like magic...
 
-<a href="https://petry078.github.io/spellblog/posts/bash-scriptage.html"><b>Read more!</b></a>
+<a href="https://petry078.github.io/spellblog/posts/2022-11-01-bash-scriptage.html"><b>Read more!</b></a>
 
 ---
 
@@ -40,7 +49,7 @@ Command line scripts. This is starting to look like magic...
 
 JavaScript is, indeed, for the mad.
 
-<a href="https://petry078.github.io/spellblog/posts/javascript-references.html"><b>Read more!</b></a>
+<a href="https://petry078.github.io/spellblog/posts/2022-08-20-javascript-references.html"><b>Read more!</b></a>
 
 ---
 
@@ -49,7 +58,7 @@ JavaScript is, indeed, for the mad.
 
 Just the basics, but it will get you going.
 
-<a href="https://petry078.github.io/spellblog/posts/github-once-and-for-all.html"><b>Read more!</b></a>
+<a href="https://petry078.github.io/spellblog/posts/2022-08-05-github-once-and-for-all.html"><b>Read more!</b></a>
 
 ---
 
@@ -58,7 +67,7 @@ Just the basics, but it will get you going.
 
 Remember! Those are not spells, yet...
 
-<a href="https://petry078.github.io/spellblog/posts/terminal-commands.html"><b>Read more!</b></a>
+<a href="https://petry078.github.io/spellblog/posts/2022-07-26-terminal-commands.html"><b>Read more!</b></a>
 
 ---
 

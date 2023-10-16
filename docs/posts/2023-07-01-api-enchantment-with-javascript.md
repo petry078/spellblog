@@ -95,3 +95,17 @@ Parsing and logging a `.csv` file from web server:
     }
 ```
 
+<div class="wisdom">
+<img class="wisdony" src="https://upload.wikimedia.org/wikipedia/commons/9/9b/RWS_Tarot_07_Chariot.jpg" alt="">
+</div>
+
+<style>
+  .wisdom {
+    display: flex;
+    justify-content: center;
+  }
+
+  .wisdony {
+  height: 120px;
+  }
+</style>
