@@ -13,22 +13,22 @@ footer: Made with VuePress 2 and Markdown — Guilherme M. Petry 2022
         font-family: 'Courier Prime', monospace;
     }
 
-    .theme-container {
-        background-color: #0d1117 !important
+    #app {
+        background-color: #0d1117;
     }
 
     header {
-        background-color: #0d1117 !important
+        background-color: #0d1117 !important;
     }
 
     aside {
-        background-color: #0d1117 !important
+        background-color: #0d1117 !important;
     }
 
     ::-moz-selection {
     background: rgb(255, 255, 0);
     color: black;
-}
+    }
 </style>
 
 ---
