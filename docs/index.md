@@ -14,7 +14,7 @@ footer: Made with VuePress 2 and Markdown — Guilherme M. Petry 2022
     }
 
     .theme-container {
-        background-color: #0d1117
+        background-color: #0d1117 !important
     }
 
     header {
