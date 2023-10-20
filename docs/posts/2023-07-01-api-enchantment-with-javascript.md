@@ -8,6 +8,31 @@ tags:
   - Fetch API
 ---
 
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+
+    * {
+        font-family: 'Courier Prime', monospace;
+    }
+
+    body {
+        background-color: #0d1117
+    }
+
+    header {
+        background-color: #0d1117 !important
+    }
+
+    aside {
+        background-color: #0d1117 !important
+    }
+
+    ::-moz-selection {
+    background: rgb(255, 255, 0);
+    color: black;
+}
+</style>
+
 # API enchantment with JavaScript
 
 {Intro on APIs and RESTful APIs}
