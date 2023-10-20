@@ -13,7 +13,7 @@ footer: Made with VuePress 2 and Markdown — Guilherme M. Petry 2022
         font-family: 'Courier Prime', monospace;
     }
 
-    body {
+    .theme-container {
         background-color: #0d1117
     }
 
