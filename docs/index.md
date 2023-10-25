@@ -6,31 +6,6 @@ tagline: Documentations, writings, spells and other stuff
 footer: Made with VuePress 2 and Markdown — Guilherme M. Petry 2022
 ---
 
-<style>
-    @import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
-
-    * {
-        font-family: 'Courier Prime', monospace;
-    }
-
-    #app {
-        background-color: #0d1117;
-    }
-
-    header {
-        background-color: #0d1117 !important;
-    }
-
-    aside {
-        background-color: #0d1117 !important;
-    }
-
-    ::-moz-selection {
-    background: rgb(255, 255, 0);
-    color: black;
-    }
-</style>
-
 ---
 
 ### :milky_way: API enchantment with JavaScript

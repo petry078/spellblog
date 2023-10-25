@@ -10,6 +10,8 @@ module.exports = {
         }),
       ],
     theme: defaultTheme({
+        colorModeSwitch: false,
+        colorMode: 'dark',
         navbar: [
             {
                 text: 'Spells',
@@ -18,7 +20,7 @@ module.exports = {
             {
                 text: 'About',
                 link: '/about.md',
-            }
-        ]
+            },
+        ],
     }),
 }
