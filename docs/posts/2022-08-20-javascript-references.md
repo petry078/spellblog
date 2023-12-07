@@ -76,8 +76,18 @@ Functions can be called as methods, that will run with the object properties dat
 As like an object it is, functions can have properties and methods.
 
 ```js
-function(){
+function(paramenters){
  commands
+}
+```
+
+#### Arrow functions
+
+Alternative function syntax for using it as variables, or parameters. Arrow functions dosent have its own `this` and can't be used as constructor function.
+
+```js
+let arrowFunction = (paramenters) => {
+    commands
 }
 ```
 
@@ -714,23 +724,22 @@ arr[0] = "NewValue"
 
 ### Array methods
 
-{explicar eles}
+{explicar eles e trazer exemplos}
 
-* `arr.push()`
-* `arr.unshift()`
-* `arr.pop()`
-* `arr.shift()`
-* `arr.splice()`
-* `arr.slice()`
-* `arr.push()`
-
-{exemplos}
+* `arr.push()` adds one, or more, elements to the end of the array and returns the new array lenght.
+* `arr.unshift()` adds one, or more, elements to the beginning of the array and returns the new array lenght.
+* `arr.pop()` removes the last element of the array.
+* `arr.shift()` removes the first element of the array.
+* `arr.splice()` used to replace elements.
+* `arr.slice()` select elements of an array in a new array.
+* `arr.map()` used for repetition loops. Run commands in each array element and creates a new array with the results.
+* `arr.forEarch()` used for repetition loops. Run commands in each array element and saves results in the same array.
 
 ### Array properties
 
-* `arr.length`
-
-{exemplos}
+* `arr.length` returns the number of elements.
+* `arr.constructor` returns the constructor function that created it.
+* `arr.prototype` don't really know, some cursed stuff.
 
 ## Node.js
 
