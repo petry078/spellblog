@@ -25,6 +25,8 @@ In JavaScript we write objects. Objects have **properties**, that can be:
 * **Primitive Values**;
 * **Functions**.
 
+> Everything that is not a primitive value, is an object.
+
 There are several built-in objects in JavaScript:
 
 * `Object`;
@@ -733,7 +735,7 @@ arr[0] = "NewValue"
 * `arr.splice()` used to replace elements.
 * `arr.slice()` select elements of an array in a new array.
 * `arr.map()` used for repetition loops. Run commands in each array element and creates a new array with the results.
-* `arr.forEarch()` used for repetition loops. Run commands in each array element and saves results in the same array.
+* `arr.forEach()` used for repetition loops. Run commands in each array element and saves results in the same array.
 
 ### Array properties
 
