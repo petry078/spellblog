@@ -47,7 +47,18 @@ On `app.js` write `app.use(helmet());` to include all manual configurations list
 
 * `app.use(helmet.noCache());` prevents your user to use cached versions of your application. This can be good when you just pushed a security update.
 
-* `app.use(helmet.contentSecurityPolicy({ directives: { defaultSrc: ["'self'"], scriptSrc: ["'self'", "trusted-cdn.com"] }} ));` Content Security Policy will help protect against data injection attacks, Cross-Site Scripting (XSS), Content Security Policy (CPS) attacks, undesired tracking, malicious frames and more.
+* Content Security Policy:
+
+```js
+app.use(helmet.contentSecurityPolicy({
+	directives:{
+		scriptSrc: ["'self'"],
+		styleSrc: ["'self'"]
+	}
+}))
+```
+
+`scriptSrc` and `styleSrc` with `"'self'"` will restrict the execution of scripts and stylesheets, originated from the same origin as the domain itself. These `directives` enhance security by mitigating Cross-Site Scripting (XSS) and file injection attacks.
 
 > Test repository: [https://replit.com/@GuilhermePetry/boilerplate-infosec](https://replit.com/@GuilhermePetry/boilerplate-infosec)
 
