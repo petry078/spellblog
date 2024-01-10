@@ -1,17 +1,26 @@
-# LaTeX PDF press
+# LaTeX PDF press specification
 
-## Instalation
+Just like magic, LaTeX documents have to be written and than compiled. 
 
-## Typesetting
+> Is it crime to write about LaTeX in an Markdown file?
+
+Write you spell recipe using LaTeX markup syntax and than press it to PDF using `pdflatex fileName.tex`.
+
+To Press PDFs using LaTeX you need to have TeX installed.
+
+```bash
+sudo apt-get install texlive-full
+tex --version
+```
+> LaTeX web editor and compiler[Overleaf](https://overleaf.com).
+
+## Typesetting specification
 
 ```latex
 \textbf{Bold example}
 \textit{Italic example}
 ```
-
 ## ABNT
-
-
 
 ## References 🖨️ 🖨
 
