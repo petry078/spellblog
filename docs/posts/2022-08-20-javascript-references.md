@@ -10,6 +10,8 @@ tags:
 
 # JavaScript cast specification
 
+> Content in progress.
+
 ## 1. Objects
 
 *"ECMAScript is an object-oriented programming language for performing computations and manipulating computational objects within a host environment... In ECMAScript, an object is a collection of zero or more properties... Properties are containers that hold other objects, primitive values, or functions"*

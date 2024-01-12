@@ -8,6 +8,15 @@ footer: Made with VuePress 2 and Markdown — Guilherme M. Petry 2022
 
 ---
 
+### :pager: LaTeX PDF press specification
+*09 Jan 2024*
+
+Ancient tech that works. Feels just like the Gutemberg press.
+
+<a href="/spellblog/posts/2024-01-09-latex-pdf-press.html"><b>Read more!</b></a>
+
+---
+
 ### :milky_way: API enchantment with JavaScript
 *01 Jul 2023*
 

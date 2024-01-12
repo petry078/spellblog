@@ -10,11 +10,9 @@ tags:
 
 # API enchantment with JavaScript
 
-{Intro on APIs and RESTful APIs}
+> Content in progress.
 
 ## 1. The Fetch API 
-
-{The Request/Response concept}
 
 Fetch API GET request:
 

@@ -10,6 +10,8 @@ tags:
 
 # LaTeX PDF press specification
 
+> Content in progress.
+
 LaTeX documents have to be written and than compiled. 
 
 > Is it crime to write about LaTeX in an Markdown file?
