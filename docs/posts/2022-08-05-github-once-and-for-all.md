@@ -78,7 +78,7 @@ git push --set-upstream origin NewBranch
 ```
 
 <div class="wisdom">
-<img class="wisdony" src="https://upload.wikimedia.org/wikipedia/commons/1/11/Wands01.jpg" alt="">
+<img class="wisdony" src="https://upload.wikimedia.org/wikipedia/commons/8/84/Cups10.jpg" alt="">
 </div>
 
 <style>

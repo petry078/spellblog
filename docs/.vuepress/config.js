@@ -18,6 +18,10 @@ module.exports = {
                 link: '/',
             },
             {
+                text: 'Tarot',
+                link: '/tarot.md',
+            },
+            {
                 text: 'About',
                 link: '/about.md',
             },
