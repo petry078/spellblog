@@ -28,6 +28,7 @@ To Press PDFs using LaTeX you need to have TeX installed.
 sudo apt-get install texlive-full
 tex --version
 ```
+
 > Complicate stuff? [Overleaf](https://www.overleaf.com), the LaTeX web editor and compiler got you there.
 
 ## Typesetting specification
