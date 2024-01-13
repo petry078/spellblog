@@ -13,7 +13,7 @@ footer: Made with VuePress 2 and Markdown — Guilherme M. Petry 2022
 
 Ancient tech that works. Feels just like the Gutemberg press.
 
-<a href="/spellblog/posts/2024-01-09-latex-pdf-press.html"><b>Read more!</b></a>
+<a href="/posts/2024-01-09-latex-pdf-press.html"><b>Read more!</b></a>
 
 ---
 
@@ -22,7 +22,7 @@ Ancient tech that works. Feels just like the Gutemberg press.
 
 Computing power and black magic do not come from just one source.
 
-<a href="/spellblog/posts/2023-07-01-api-enchantment-with-javascript.html"><b>Read more!</b></a>
+<a href="/posts/2023-07-01-api-enchantment-with-javascript.html"><b>Read more!</b></a>
 
 ---
 
@@ -31,7 +31,7 @@ Computing power and black magic do not come from just one source.
 
 After a hours trying to fix all errors. Yeah. Maybe...
 
-<a href="/spellblog/posts/2023-03-03-kali-metasploitable-virtualbox.html"><b>Read more!</b></a>
+<a href="/posts/2023-03-03-kali-metasploitable-virtualbox.html"><b>Read more!</b></a>
 
 ---
 
@@ -40,7 +40,7 @@ After a hours trying to fix all errors. Yeah. Maybe...
 
 Get to know more about headers, caching, CDN and web vulnerabilities.
 
-<a href="/spellblog/posts/2023-01-31-intro-on-web-security-with-helmet-js.html"><b>Read more!</b></a>
+<a href="/posts/2023-01-31-intro-on-web-security-with-helmet-js.html"><b>Read more!</b></a>
 
 ---
 
@@ -49,7 +49,7 @@ Get to know more about headers, caching, CDN and web vulnerabilities.
 
 Command line scripts. This is starting to look like magic...
 
-<a href="/spellblog/posts/2022-11-01-bash-scriptage.html"><b>Read more!</b></a>
+<a href="/posts/2022-11-01-bash-scriptage.html"><b>Read more!</b></a>
 
 ---
 
@@ -58,7 +58,7 @@ Command line scripts. This is starting to look like magic...
 
 JavaScript is, indeed, for the mad.
 
-<a href="/spellblog/posts/2022-08-20-javascript-references.html"><b>Read more!</b></a>
+<a href="/posts/2022-08-20-javascript-references.html"><b>Read more!</b></a>
 
 ---
 
@@ -67,7 +67,7 @@ JavaScript is, indeed, for the mad.
 
 Just the basics, but it will get you going.
 
-<a href="/spellblog/posts/2022-08-05-github-once-and-for-all.html"><b>Read more!</b></a>
+<a href="/posts/2022-08-05-github-once-and-for-all.html"><b>Read more!</b></a>
 
 ---
 
@@ -76,7 +76,7 @@ Just the basics, but it will get you going.
 
 Remember! Those are not spells, yet...
 
-<a href="/spellblog/posts/2022-07-26-terminal-commands.html"><b>Read more!</b></a>
+<a href="/posts/2022-07-26-terminal-commands.html"><b>Read more!</b></a>
 
 ---
 
@@ -85,4 +85,4 @@ Remember! Those are not spells, yet...
 
 Basic Markdown syntax
 
-<a href="/spellblog/posts/2022-07-21-markdown-cheat-sheet.html"><b>Read more!</b></a>
+<a href="/posts/2022-07-21-markdown-cheat-sheet.html"><b>Read more!</b></a>
