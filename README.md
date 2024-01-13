@@ -20,12 +20,3 @@ or
 Commit the changes to the main branch and the GitHub Pages will do its job.
 
 > After first build to GitHub Pages. You can skip `git` and `npm` commands. Just create and edit `.md` files straight on GitHub.
-
-## Future work
-
-* [ ] New home page. Same GIF. Word by word professional definition and links. Button to spells.
-* [ ] Old home will become `/spells`. "At this point... this can be called spells".
-* [ ] Navbar update.
-* [ ] Date-oriented filename refactor. Messy I know...
-
-## Changelog
