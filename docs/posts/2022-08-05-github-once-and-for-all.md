@@ -11,9 +11,7 @@ tags:
 
 # GitHub once and for all
 
-Git and GitHub, at first, can be a little frustrating. Complex commands, Git running locally and the GitHub platform. I feel you... So, here is the easiest way (I know) to work with Git and GitHub repositories. 
-
-You will need, access to [GitHub](https://github.com/), [Visual Studio Code](https://code.visualstudio.com/) and any UNIX Terminal (or Bash, for the Windows users).
+Git and GitHub, at first, can be a little frustrating. Complex commands, Git running locally and the GitHub platform. I feel you... So, here is the easiest way (I know) to work with Git and GitHub repositories.
 
 ## Clone, update, commit and push code to GitHub from the Terminal
 
