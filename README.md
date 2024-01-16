@@ -14,4 +14,4 @@ To make framework changes/updates, clone the main branch and:
 
 Commit the changes to the main branch and the GitHub Pages will do its job.
 
-Wrong choices?
+Wrong choices? Not at all, this is a test now.
