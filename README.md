@@ -13,3 +13,5 @@ To make framework changes/updates, clone the main branch and:
 1. `npm run docs:dev`
 
 Commit the changes to the main branch and the GitHub Pages will do its job.
+
+Wrong choices?
