@@ -10,13 +10,11 @@ tags:
 
 # LaTeX PDF press specification
 
-> Content in progress.
+LaTeX is a powerful typesetting markup language, designed to make beautiful and readable printable documents.
 
-LaTeX documents have to be written and than compiled. 
+Learn LaTeX is great because its old school, free and stable. You will never need to open shit and slow Google Docs, Microsoft Word and even Adobe inDesign, which are all private softwares.
 
-> Is it crime to write about LaTeX in an Markdown file?
-
-Write content using LaTeX markup syntax and than press it to PDF with the command:
+LaTeX documents have to be written and than compiled. Write content using LaTeX markup syntax and than press it to PDF with the command:
 
 ```bash
 pdflatex fileName.tex
@@ -31,11 +29,9 @@ tex --version
 
 > Complicate stuff? [Overleaf](https://www.overleaf.com), the LaTeX web editor and compiler got you there.
 
-## Typesetting specification
+The syntax is divided by the preamble, the content and bibliographic references.
 
-Syntax is divided by **reserved characters**, **commands** and **comments**.
-
-### Reserved characters
+There are also some reserved characters:
 
 | Character | Definition                                |
 |-----------|-------------------------------------------|
@@ -51,25 +47,26 @@ Syntax is divided by **reserved characters**, **commands** and **comments**.
 
 To print then, use `\` before. Example: `\#`.
 
-### Commands
+## The preamble
 
-LaTeX document structure is defined by header, that contains metadata and information about the text, and content, with the text information.
+The preamble is where you will define the structure, styles, aditional packages, rules, metadata, and other general configuration. This configurations will apply to the document as a whole.
 
-#### Header commands
+The first command of the preamble is `\documentclass[]{}` that will set the document class and its own parameters.
 
-| Command                       | Definition |
-|-------------------------------|------------|
-| `\documentclass[]{}`          | Initialize the document. Requires parameters `[]` and actual document class `{}`. |
-| `\usepackage[]{}`             | Import and use packages with additional functionality. Requires parameters `[]` and scope `{}`. |
-| `\setlength{\parindent}{0cm}` | Set paragraph identation. |
-| `\setlength{\parskip}{2em}`   | Set space between paragraphs. |
-| `\renewcommand{\baselinestretch}{1.5}` | Space between lines. |
-| `\title{Document title}`
-| `\author{Document author}`
-| `\date{Document date}`
-| 
+Here are the preamble commands discovered:
 
-###### \documentclass
+| Command                                | Definition                                                                                      |
+|----------------------------------------|-------------------------------------------------------------------------------------------------|
+| `\documentclass[]{}`                   | Initialize the document. Requires parameters `[]` and actual document class `{}`.               |
+| `\usepackage[]{}`                      | Import and use packages with additional functionality. Requires parameters `[]` and scope `{}`. |
+| `\setlength{\parindent}{0cm}`          | Set paragraph identation.                                                                       |
+| `\setlength{\parskip}{2em}`            | Set space between paragraphs.                                                                   |
+| `\renewcommand{\baselinestretch}{1.5}` | Space between lines.                                                                            |
+| `\title{Document title}`               | Define title of the document.                                                                   |
+| `\author{Document author}`             | Define author of the document.                                                                  |
+| `\date{Document date}`                 | Define date of the document.                                                                    |
+
+### \documentclass
 
 `\documentcalss` parameters[], or parameters in genereal, are optionals and will change based on the actual class and command, that can be:
 
@@ -81,8 +78,7 @@ LaTeX document structure is defined by header, that contains metadata and inform
 \documentclass{slides}
 \documentclass{beamer}
 ```
-
-`\documentclass` parameter:
+`\documentclass` parameters:
 
 ```tex
 \documentclass[12pt]{}
@@ -92,11 +88,9 @@ LaTeX document structure is defined by header, that contains metadata and inform
 \documentclass[landscape]{}
 ```
 
-###### \usepackage
+### \usepackage
 
-Must be right above the `\documentclass`.
-
-Here are some popular packages and how to cast then.
+The `\usepackage` commands imports aditional packages and features. Here are some examples:
 
 ```tex
 \usepackage[utf8]{inputenc}
@@ -105,7 +99,7 @@ Here are some popular packages and how to cast then.
 \usepackage{url}
 ```
 
-#### Content commands and techniques
+## The content
 
 Content commands are only allowed in the document scope:
 
@@ -116,43 +110,64 @@ Content and content commands go here! Like \LaTeX!
 
 ```
 
-##### Content commands
+| Command                                  | Definition                                                                                                       |
+|------------------------------------------|------------------------------------------------------------------------------------------------------------------|
+| `\par`                                   | New paragraph                                                                                                    |
+| `\\`                                     | Line break, necessary on blank lines                                                                             |
+| `\textbf{Bold example}`                  | Bold text.                                                                                                       |
+| `\textit{Italic example}`                | Italic text.                                                                                                     | 
+| `\underline{Underline example}`          | Underlined text.                                                                                                 | 
+| `\begin{center}`                         | Text align: center. Requires `\end{center}                                                                       | 
+| `\begin{flushright}`                     | Text align: right. Requires `\end{flushright}                                                                    |  
+| `\newpage` or `\clearpage`               | Page break. Needs test, as they work diffrently.                                                                 | 
+| `\vspace{4cm}`                           | Add vertical space between elements in line.                                                                     |  
+| `\hspace{4cm}`                           | Add horizontal space between elements in line.                                                                   |  
+| `\hfill` and `\vfill`                    | Fill horizontal and vertical space between elements in line.                                                     |
+| `\begin{itemize}` or `\begin{enumerate}` | Iniciates unordered or ordered list. Requires `\end{itemize}` or `\end{enumerate}`. For list item: `\item`.      |
+| `\begin{figure}`                         | Iniciates image with standard snippet. Requires graphicx package `\usepackage{graphicx}` in the document header. |     
+| `\begin{tabular}`                        | Iniciates image with standard snippet. Requires graphicx package `\usepackage{graphicx}` in the document header. |   
+| `\begin{titlepage}`                      | Iniciate title page. Requires `\end{titlepage}`. See example below.                                              |    
+| `\tableofcontents`                       | Print table of contents. Nice to have `\newpage` after the summary.                                              |   
+| `\listoffigures`                         | Print figures list.                                                                                              |   
+| `\listoftables`                          | Print figures list.                                                                                              |   
 
-| Command                          | Definition                                                                                                          |
-|----------------------------------|---------------------------------------------------------------------------------------------------------------------|
-| `\par`                           | New paragraph                                                                                                       |
-| `\\`                             | Line break, necessary on blank lines                                                                                | 
-| `\textbf{Bold example}`          | Bold text.                                                                                                          |
-| `\textit{Italic example}`        | Italic text.                                                                                                        |
-| `\underline{Underline example}`  | Underlined text.                                                                                                    |
-| `\begin{center}`                 | Text align: center. Requires `\end{center}`                                                                         |
-| `\begin{flushright}`             | Text align: right. Requires `\end{flushright}`                                                                      |
-| `\newpage` or `\clearpage`       | Page break. Needs test, as they work diffrently.                                                                    |
-| `\vspace{4cm}`                   | Add vertical space between elements in line.                                                                        | 
-| `\hspace{4cm}`                   | Add horizontal space between elements in line.                                                                      |
-| `\hfill` and `\vfill`            | Fill horizontal and vertical space between elements in line.                                                        |
-| `\begin{itemize}` or `\begin{enumerate}` | Iniciates unordered or ordered list. Requires `\end{itemize}` or `\end{enumerate}`. For list item: `\item`. |
-| `\begin{figure}`                 | Iniciates image with standard snippet. Requires graphicx package `\usepackage{graphicx}` in the document header.    | 
-| `\begin{tabular}`                | Iniciates image with standard snippet. Requires graphicx package `\usepackage{graphicx}` in the document header.    | 
-| `\begin{titlepage}`              | Iniciate title page. Requires `\end{titlepage}`. See example below.                                                 |
-| `\tableofcontents`               | Print table of contents. Nice to have `\newpage` after the summary.                                                 |
-| `\listoffigures`                 | Print figures list.                                                                                                 |
-| `\listoftables`                  | Print figures list.                                                                                                 |
+## Content techniques
 
-##### Content techniques
+Content techniques are commands used inside the content scope.
 
-Paragraphs must end with `\par`.
+### Paragraphs, chapters, sections, and subsections
+
+A blank line and `\par` after the text represent paragraph.
+
+```tex
+Paragraph 1
+
+Paragraph 2
+
+Paragraph 3\par
+Paragraph 4\par
+```
 
 For a simple line break, use `\\` or `\newline` at the end of the paragraph, or in a single line.
 
 ```tex
-Fisrt paragraph\par
-Second paragraph\par
 Simple line break\\
 Newline \newline
 ```
 
-> Crazy old tech stuff...
+Chapters, sections, and subsections:
+
+```tex
+\chapter{Chapter 1}
+\section{Chapter 1, Section 1}
+\section{Chapter 1, Section 2}
+\subsection{Chapter 1, Section 2, Subsection 1}
+\section{Chapter 1, Section 3}
+\subsection{Chapter 1, Section 3, Subsection 1}
+\subsection{Chapter 1, Section 3, Subsection 2}
+```
+
+### Horizontal and vertical spacing of elements
 
 Whitespaces after commands are ignored. To print then, type the whitespace inside the commands scope {}. Example: `textbf{text }`.
 
@@ -162,6 +177,10 @@ Whitespaces after commands are ignored. To print then, type the whitespace insid
 Grape\hfill100g
 1\hspace{1cm}2\hspace{1cm}3\hspace{1cm}4\hspace{1cm}
 ```
+
+For vertical stuff, same thing, but `\vspace{1cm}` and `\vfill`.
+
+### Font size and style
 
 Inline font size and style:
 
@@ -188,6 +207,8 @@ Any text style + any nother text style:
 \underline{\textbf{\textit{Underlined, bold, and italic text}}}
 ```
 
+### Lists
+
 Unordered list:
 
 ```tex
@@ -210,6 +231,8 @@ Ordered list:
 \end{enumerate}
 ```
 
+### Images
+
 Images are called figures in LaTeX, type `\begin{figure}` and it should autocomplete to this:
 
 ```tex
@@ -221,9 +244,11 @@ Images are called figures in LaTeX, type `\begin{figure}` and it should autocomp
 \end{figure}
 ```
 
-> Tables are too complicated, use online table generators or use Markdown inside LaTeX.
+### Tables
 
-Title page:
+Not gonna lie, tables are complicated.
+
+### Titlepage
 
 ```tex
 \begin{titlepage}
@@ -238,40 +263,66 @@ Title page:
 \end{titlepage}
 ```
 
-Chapters, sections, and subsections:
+### Table of contents (TOC)
 
-```tex
-\chapter{Chapter 1}
-\section{Chapter 1, Section 1}
-\section{Chapter 1, Section 2}
-\subsection{Chapter 1, Section 2, Subsesummaryction 1}
-\section{Chapter 1, Section 3}
-\subsection{Chapter 1, Section 3, Subsection 1}
-\subsection{Chapter 1, Section 3, Subsection 2}
-```
+Just call `\tableofcontents` where you want it to be printed.
 
 > Use * in the end of markup to avoid it beeing indexed by the `\tableofcontents`. Example: `\section*{Chapter 1, Section 1}`
 
-Note footers:
+### Footnotes
 
 ```tex
 Primeiro parágrafo do capítulo 1, seção 3 e subseção 2\footnote{Nota de rodapé1}\par
 Segundo parágrafo do capítulo 1, seção 3 e subseção 2\footnote{Nota de rodapé2}\par
 ```
 
-### Comments
+### Quotes
+
+```tex
+\begin{quote}
+
+\end{quote}
+```
+
+## Bibliographic references
+
+Bibliographic references in LaTeX requires the `natbib` package and the references file should be in bibTeX, or `.bib`.
+
+Instanciate the bliblopgraphy:
+
+```tex
+\bibliography{referencias}
+\bibliographystyle{plainnat}
+```
+
+bibTeX bibliography example:
+
+```bibTeX
+@book{de1999santa,
+  title={Santa Ifig{\^e}nia},
+  author={de Athayde Jorge, C.},
+  lccn={99887098},
+  series={S{\'e}rie Hist{\'o}ria dos bairros de S{\~a}o Paulo},
+  url={https://books.google.com.br/books?id=SDgsAAAAYAAJ},
+  year={1999},
+  publisher={Departamento do Patrim{\^o}nio Hist{\'o}rico}
+}
+```
+
+On text, call reference with `\cite{referenceOfBibliography}.` The `referenceOfBibliography` in the example is `de1999santa`.
+
+> Google Books offers bibTeX references like this!
 
 ## ABNT
 
-If you don't know what this is. Trust me, you don't need it.
+Now!
 
 ## References 🖨️ 🖨
 
-* Beguinners book: https://linorg.usp.br/CTAN/info/lshort/english/lshort.pdf
-* Learn: https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes#What_is_LaTeX?
-* ABNT: https://github.com/abntex/abntex2/wiki/InstalacaoLinux#instala%C3%A7%C3%A3o-autom%C3%A1tica-do-texlive-e-do-abntex2-em-distribui%C3%A7%C3%B5es-debian-ubuntu-e-derivadas-recomendado
-* Learning playlist (UFMG): https://youtube.com/playlist?list=PLt2qoMeOJsQzWsM5vM7eWFUZKVbCZmWZB&si=M8rouIXyLS7dUfrb
-* Parei em Aula 2.6: Referências Cruzadas | Preparação de Documentos em LaTeX: https://youtu.be/9mkGr-YSVHA?si=Xrp4AYw6JvxK7ddP
+* [The Not So Short Introduction to LATEX 2εBeguinners book](https://linorg.usp.br/CTAN/info/lshort/english/lshort.pdf)
+* [Learn LaTeX in 30 minutes](https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes#What_is_LaTeX?)
+* [abntex2](https://github.com/abntex/abntex2/wiki/InstalacaoLinux#instala%C3%A7%C3%A3o-autom%C3%A1tica-do-texlive-e-do-abntex2-em-distribui%C3%A7%C3%B5es-debian-ubuntu-e-derivadas-recomendado)
+* Curso em Português: [Preparação de Documentos em LaTeX](https://youtube.com/playlist?list=PLt2qoMeOJsQzWsM5vM7eWFUZKVbCZmWZB&si=M8rouIXyLS7dUfrb)
 
 <div class="wisdom">
 <img class="wisdony" src="https://upload.wikimedia.org/wikipedia/commons/a/ae/Cups07.jpg" alt="">
