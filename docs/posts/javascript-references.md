@@ -527,12 +527,6 @@ switch (neighborhood) {
 console.log(fee)
 ```
 
-### Ternary conditions
-
-Simplified way to write contitionals. 
-
-See [Conditional or Ternary operators" at Chapter 2](https://madpress.art/spellblog/posts/javascript-references.html#conditional-or-ternary-operators).
-
 ## 7. Repetitions (Loops)
 
 Repetitions, or Loops, (`Laços de Repetição`, in Portuguese) allows you to run one or more commands in a program or function as many times you need.
@@ -546,7 +540,7 @@ The `for` syntax is composed by 3 instructions `for (initialValue; conditional; 
 ```javascript
 for (let i = 1; i <= 10; i = i + 1){command}
         ||          ||        ||
-	\/          \/        \/
+	    \/          \/        \/
 {INITIAL VALUE}{CONDITIONAL}{INCREMENTAL}
 
 //This means that `i` starts as 1 and, and will run until it grows to 10, since each commands run, it grows by {INCREMENTAL/DECREMENTAL}, in that case 1.
@@ -799,7 +793,21 @@ function plusFunction(item, index, array) {
 arr.forEach(item => {console.log(item + 1);})
 ```
 
-#### Locating content inside a array
+* `arr.filter()`
+* `arr.reduce()`
+* `arr.sort()`
+
+### Array properties
+
+* `arr.length` returns the number of elements.
+* `arr.constructor` returns the constructor function that created it.
+* `arr.prototype` don't really know, some cursed stuff.
+
+### Array of objects
+
+{content in progress}
+
+### Locating content inside a array
 
 The methods `indexOf()`, `lastIndexOf()`, and `includes()` are used to locate content inside arrays.
 
@@ -810,11 +818,7 @@ arr.lastIndexOf(3) // Returns the index of the last occurrence of 3
 arr.includes(3) // Returns true if the array contains 3
 ```
 
-### Array properties
-
-* `arr.length` returns the number of elements.
-* `arr.constructor` returns the constructor function that created it.
-* `arr.prototype` don't really know, some cursed stuff.
+## Cookies, local storage, session storage
 
 ## Node.js
 
