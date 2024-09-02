@@ -222,13 +222,11 @@ Examples:
 
 ### Logical operators
 
-```
 | Operator  | Function       | Example                            |
 |-----------|----------------|------------------------------------|
 |     !     | Not (negação)  | `(x < 10 && y > 1)` // true  	  |
 |    &&     | And (conjunção)| `(x == 5 || y == 5)` // false      |
 |    ||     | Or  (disjunção)| ```!(x == y)``` // true            |
-```
 
 Unary operator `!` (not) only deals with one operating, turning 0 in 1 and 1 in 0. True to false, false to true.
 
@@ -825,7 +823,14 @@ console.log(arr) // Output: [1, 2, 4, 5, 8]
 
 ### Array of objects
 
-{content in progress}
+An array of objects stores elements that have attributes. Attributes are invoked using the key-value concept.
+
+```javascript
+const arr = [
+    {elementAttributeKey: "Value", elementAttributeKey2: 2},
+    {elementAttributeKey: "Other value", elementAttributeKey2: 3}
+]
+```
 
 ### Locating content inside a array
 
@@ -838,11 +843,23 @@ arr.lastIndexOf(3) // Returns the index of the last occurrence of 3
 arr.includes(3) // Returns true if the array contains 3
 ```
 
-## Cookies, local storage, session storage
+## 9. Cookies, local storage, session storage
 
-{content in progress}
+{introduction}
 
-## Node.js
+### Cookies
+
+{definition and example}
+
+### Local storage
+
+{definition and example}
+
+### session storage
+
+{definition and example}
+
+## 10. Node.js
 
 JavaScript runs on browsers, as client side code. With Node.js you can run it as a server. 
 
@@ -851,8 +868,6 @@ JavaScript runs on browsers, as client side code. With Node.js you can run it as
 ### prompt-sync
 
 [prompt-sync](https://github.com/heapwolf/prompt-sync) enables you to use `prompt` on the terminal.
-
-> It requires Node.js.
 
 Run `npm install prompt-sync`. This will install `node_modules` and `package.json`.
 
@@ -882,3 +897,7 @@ On the terminal, open the folder where your JavaScript file is and run:
   height: 120px;
   }
 </style>
+
+* 163
+* 190
+* 214
