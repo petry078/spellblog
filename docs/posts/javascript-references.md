@@ -793,9 +793,29 @@ function plusFunction(item, index, array) {
 arr.forEach(item => {console.log(item + 1);})
 ```
 
-* `arr.filter()`
-* `arr.reduce()`
-* `arr.sort()`
+* `arr.filter()` creates a new array with all elements that pass the test implemented by the provided function.
+
+```javascript
+const arr = [1, 2, 3, 4, 5, 6]
+const filteredArr = arr.filter(num => num > 3)
+console.log(filteredArr) // Output: [4, 5, 6]
+```
+
+* `arr.reduce()` applies a function against an accumulator and each element in the array (from left to right) to reduce it to a single value.
+
+```javascript
+const arr = [1, 2, 3, 4, 5]
+const sum = arr.reduce((total, value) => total + value, 0)
+console.log(sum) // Output: 15
+```
+
+* `arr.sort()` sorts the elements of an array in place and returns the array. 
+
+```javascript
+const arr = [5, 2, 8, 1, 4]
+arr.sort()
+console.log(arr) // Output: [1, 2, 4, 5, 8]
+```
 
 ### Array properties
 
@@ -819,6 +839,8 @@ arr.includes(3) // Returns true if the array contains 3
 ```
 
 ## Cookies, local storage, session storage
+
+{content in progress}
 
 ## Node.js
 
