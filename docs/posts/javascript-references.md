@@ -544,7 +544,7 @@ Loops need *braking points* and can be used with Conditional (if...else/switch..
 The `for` syntax is composed by 3 instructions `for (initialValue; conditional; incremental/decremental){command}`: 
 
 ```javascript
-for (let i = 1); i <= 10; i = i + 1){command}
+for (let i = 1; i <= 10; i = i + 1){command}
         ||          ||        ||
 	\/          \/        \/
 {INITIAL VALUE}{CONDITIONAL}{INCREMENTAL}
@@ -728,16 +728,87 @@ arr[0] = "NewValue"
 
 ### Array methods
 
-{explicar eles e trazer exemplos}
-
 * `arr.push()` adds one, or more, elements to the end of the array and returns the new array lenght.
-* `arr.unshift()` adds one, or more, elements to the beginning of the array and returns the new array lenght.
+
+```javascript
+const arr = ["string1", "string2", 12, 15, "string3"]
+arr.push("one or", "more", "elements")
+```
+
 * `arr.pop()` removes the last element of the array.
+
+```javascript
+const arr = ["string1", "string2", 12, 15, "pop this one"]
+arr.pop()
+```
+
 * `arr.shift()` removes the first element of the array.
-* `arr.splice()` used to replace elements.
+
+```javascript
+const arr = ["shift this one", "string2", 12, 15, "pop this one"]
+arr.shift()
+```
+
+* `arr.unshift()` adds one, or more, elements to the beginning of the array and returns the new array lenght.
+
+```javascript
+const arr = ["string1", "string2", 12, 15, "string3"]
+arr.unshift("zero", "unshift", "test")
+```
+
+* `arr.splice()` used to remove and replace elements.
+
+```javascript
+const arr = ["string0", "string1", 2, 3, "remove 4", "remove 5"]
+arr.splice(4, 2) //Start position, number of elements to delete
+
+
+const arr = ["string0", "string1", 2, 3, "number this 4", "number this 5"]
+arr.splice(4, 2, "quatro", "cinco") //Start position, number os elements to replace, replace value, replace value.
+```
+
 * `arr.slice()` select elements of an array in a new array.
-* `arr.map()` used for repetition loops. Run commands in each array element and creates a new array with the results.
-* `arr.forEach()` used for repetition loops. Run commands in each array element and saves results in the same array.
+
+```javascript
+const arr = ["string0", "string1", 2, 3, "quatro", "cinco", 6, 7, 8, 9, 10]
+arr.slice() //Copy the array
+arr.slice(2, 6) // Select elements from index 2 to 6
+```
+
+* `arr.map()` expects a function as its argument. This function is then called for each element in the array.
+
+```javascript
+const arr = [0, 1, 2, 3, 4, 5]
+const mappedArr = arr.map(plus)
+
+function plus(value, index, arr) {return value + 1}
+console.log(mappedArr)
+```
+
+* `arr.forEach()` used for repetition loops. Run commands in each element of the array and saves results in the same array.
+
+```javascript
+const arr = [0, 1, 2, 3, 4, 5]
+arr.forEach(plusFunction)
+
+function plusFunction(item, index, array) {
+    console.log(item + 1);
+}
+
+//with arrow function
+arr.forEach(item => {console.log(item + 1);})
+```
+
+#### Locating content inside a array
+
+The methods `indexOf()`, `lastIndexOf()`, and `includes()` are used to locate content inside arrays.
+
+```javascript
+const arr = [0, 1, 2, 3, 4, 5]
+arr.indexOf(3) // Returns the index of the first occurrence of 3
+arr.lastIndexOf(3) // Returns the index of the last occurrence of 3
+arr.includes(3) // Returns true if the array contains 3
+```
 
 ### Array properties
 
