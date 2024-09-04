@@ -8,6 +8,15 @@ footer: Made with VuePress 2 and Markdown — Guilherme M. Petry 2022
 
 ---
 
+### 💅 Fun with Neofetch and Bash scripts
+*04 Sep 2024*
+
+It's not cool, if it doesn't look cool
+
+<a href="/posts/fun-with-neofetch-and-bash-scripts.html"><b>Read more!</b></a>
+
+---
+
 ### :pager: LaTeX PDF press specification
 *09 Jan 2024*
 
