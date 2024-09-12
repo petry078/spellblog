@@ -25,6 +25,10 @@ module.exports = {
                 text: 'About',
                 link: '/about.md',
             },
+            {
+                text: 'To-do',
+                link: '/todo.md',
+            },
         ],
     }),
 }
