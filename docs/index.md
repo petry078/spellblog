@@ -6,6 +6,16 @@ tagline: Documentations, writings, spells and other stuff
 footer: Made with VuePress 2 and Markdown — Guilherme M. Petry 2022
 ---
 
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-M75QDSRN34"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-M75QDSRN34');
+</script>
+
 ---
 
 ### 💅 Fun with Neofetch and Bash scripts
