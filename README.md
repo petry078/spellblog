@@ -2,7 +2,7 @@
 
 Documentations, writings, spells and other stuff.
 
-Live: https://spellblog.space
+Live: https://petry078.github.io/spelllblog/
 
 ![vuepress-proof.png](https://i.imgur.com/xXpidn5.png)
 
