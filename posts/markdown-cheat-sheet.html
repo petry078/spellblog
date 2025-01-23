@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="generator" content="VuePress 2.0.0-beta.48">
+    <style>
+      :root {
+        --c-bg: #fff;
+      }
+      html.dark {
+        --c-bg: #22272e;
+      }
+      html, body {
+        background-color: var(--c-bg);
+      }
+    </style>
+    <script>
+      const userMode = localStorage.getItem('vuepress-color-scheme');
+			const systemDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+			if (userMode === 'dark' || (userMode !== 'light' && systemDarkMode)) {
+				document.documentElement.classList.toggle('dark', true);
+			}
+    </script>
+    <title>Markdown cheat sheet | ✨ Spellblog</title><meta name="description" content="">
+    <link rel="modulepreload" href="/spellblog/assets/app.ef2b660b.js"><link rel="modulepreload" href="/spellblog/assets/markdown-cheat-sheet.html.f36bef96.js"><link rel="modulepreload" href="/spellblog/assets/markdown-cheat-sheet.html.304a4cc2.js"><link rel="prefetch" href="/spellblog/assets/about.html.0227a3cb.js"><link rel="prefetch" href="/spellblog/assets/index.html.6733d4cc.js"><link rel="prefetch" href="/spellblog/assets/tarot.html.dfa5d2d6.js"><link rel="prefetch" href="/spellblog/assets/todo.html.12022431.js"><link rel="prefetch" href="/spellblog/assets/api-enchantment-with-javascript.html.55b9fca3.js"><link rel="prefetch" href="/spellblog/assets/bash-scriptage.html.0cdbbbc3.js"><link rel="prefetch" href="/spellblog/assets/fun-with-neofetch-and-bash-scripts.html.701e6794.js"><link rel="prefetch" href="/spellblog/assets/github-once-and-for-all.html.cec4934e.js"><link rel="prefetch" href="/spellblog/assets/intro-on-web-security-with-helmet-js.html.7fb42c00.js"><link rel="prefetch" href="/spellblog/assets/javascript-references.html.3e7a35f5.js"><link rel="prefetch" href="/spellblog/assets/kali-metasploitable-virtualbox.html.5eb2bebe.js"><link rel="prefetch" href="/spellblog/assets/latex-pdf-press.html.881b968e.js"><link rel="prefetch" href="/spellblog/assets/terminal-commands.html.e0421b18.js"><link rel="prefetch" href="/spellblog/assets/404.html.7d858b3d.js"><link rel="prefetch" href="/spellblog/assets/about.html.10f5977f.js"><link rel="prefetch" href="/spellblog/assets/index.html.2244e77c.js"><link rel="prefetch" href="/spellblog/assets/tarot.html.ce9e8f4d.js"><link rel="prefetch" href="/spellblog/assets/todo.html.f8b60e31.js"><link rel="prefetch" href="/spellblog/assets/api-enchantment-with-javascript.html.fedbe8ab.js"><link rel="prefetch" href="/spellblog/assets/bash-scriptage.html.6e914daf.js"><link rel="prefetch" href="/spellblog/assets/fun-with-neofetch-and-bash-scripts.html.6cb876ee.js"><link rel="prefetch" href="/spellblog/assets/github-once-and-for-all.html.d9f2b5ad.js"><link rel="prefetch" href="/spellblog/assets/intro-on-web-security-with-helmet-js.html.9bcf2d7f.js"><link rel="prefetch" href="/spellblog/assets/javascript-references.html.e202000b.js"><link rel="prefetch" href="/spellblog/assets/kali-metasploitable-virtualbox.html.8bb02885.js"><link rel="prefetch" href="/spellblog/assets/latex-pdf-press.html.64e8aa70.js"><link rel="prefetch" href="/spellblog/assets/terminal-commands.html.18f24bb6.js"><link rel="prefetch" href="/spellblog/assets/404.html.97b57a96.js"><link rel="prefetch" href="/spellblog/assets/404.8869c74a.js"><link rel="prefetch" href="/spellblog/assets/Layout.f1ef1625.js">
+    <link rel="stylesheet" href="/spellblog/assets/style.5951465d.css">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="theme-container no-sidebar"><!--[--><header class="navbar"><div class="toggle-sidebar-button" title="toggle sidebar" aria-expanded="false" role="button" tabindex="0"><div class="icon" aria-hidden="true"><span></span><span></span><span></span></div></div><span><a href="/spellblog/" class=""><!----><span class="site-name">✨ Spellblog</span></a></span><div class="navbar-items-wrapper" style=""><!--[--><!--]--><nav class="navbar-items can-hide"><!--[--><div class="navbar-item"><a href="/spellblog/" class="" aria-label="Spells"><!--[--><!--]--> Spells <!--[--><!--]--></a></div><div class="navbar-item"><a href="/spellblog/tarot.md" class="" aria-label="Tarot"><!--[--><!--]--> Tarot <!--[--><!--]--></a></div><div class="navbar-item"><a href="/spellblog/about.md" class="" aria-label="About"><!--[--><!--]--> About <!--[--><!--]--></a></div><div class="navbar-item"><a href="/spellblog/todo.md" class="" aria-label="To-do"><!--[--><!--]--> To-do <!--[--><!--]--></a></div><!--]--></nav><!--[--><!--]--><!----><form class="search-box" role="search"><input type="search" autocomplete="off" spellcheck="false" value><!----></form></div></header><!--]--><div class="sidebar-mask"></div><!--[--><aside class="sidebar"><nav class="navbar-items"><!--[--><div class="navbar-item"><a href="/spellblog/" class="" aria-label="Spells"><!--[--><!--]--> Spells <!--[--><!--]--></a></div><div class="navbar-item"><a href="/spellblog/tarot.md" class="" aria-label="Tarot"><!--[--><!--]--> Tarot <!--[--><!--]--></a></div><div class="navbar-item"><a href="/spellblog/about.md" class="" aria-label="About"><!--[--><!--]--> About <!--[--><!--]--></a></div><div class="navbar-item"><a href="/spellblog/todo.md" class="" aria-label="To-do"><!--[--><!--]--> To-do <!--[--><!--]--></a></div><!--]--></nav><!--[--><!--]--><!----><!--[--><!--]--></aside><!--]--><!--[--><main class="page"><!--[--><!--]--><div class="theme-default-content"><!--[--><!--]--><div><h1 id="markdown-cheat-sheet" tabindex="-1"><a class="header-anchor" href="#markdown-cheat-sheet" aria-hidden="true">#</a> Markdown cheat sheet</h1><div class="language-text ext-text line-numbers-mode"><pre class="language-text"><code>| Markup syntax    | Name                            | Description &amp; Examples            |
+|------------------|---------------------------------|-----------------------------------|
+| #                | Heading 1 &lt;h1&gt;                  | # H1                              |
+| ##               | Heading 2 &lt;h2&gt;                  | ## H2                             |
+| ###              | Heading 3 &lt;h3&gt;                  | ### H3                            |   
+| ####             | Heading 4 &lt;h4&gt;                  | #### H4                           | 
+| #####            | Heading 5 &lt;h5&gt;                  | ##### H5                          |  
+| ######           | Heading 6 &lt;h6&gt;                  | ###### H6                         | 
+| **bold**         | Bold                            | **Bold** example                  |
+| *italic*         | Italic                          | *Italic* example                  | 
+| ---              | Line &lt;hr&gt;                       | Line break (*** ___ )             |
+| &gt;                | Quote/Comment                   | &gt; Comment styled line             |
+| *                | Unordered list item             | * List item (- + are alternatives)|
+| 1.               | Number ordered list item        | 1. Just like this!                |
+| a.               | Character ordered list item     | a. Character styled list          |
+| - [ ] text       | Unmarked to-do list item        | Create to-do lists                |
+| - [x] text       | Checkd to-do list item          | This one is a checked [✔] box     |
+| ```code```       | Code                            | ```Code styled line/block```      | 
+| [text](URL)      | Hyperlink                       | [Download here!](URL)             |
+| ![alt text](URL) | Image                           | ![altText](URL)                   |
+| \                | Disable Markdown style          | Use before ``` * # - + ! |        |
+|------------------|---------------------------------|-----------------------------------|
+|                                                                                        |
+|                                 text-align on tables                                   |
+|                                                                                        |
+|               | text-align: left | text-align: center | text-align: right |            |
+|               |:-----------------|:------------------:|------------------:|            |
+|               | text             |        text        |              text |            |
+|                                                                                        |
+
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><div class="wisdom"><img class="wisdony" src="https://upload.wikimedia.org/wikipedia/commons/d/d7/Cups05.jpg" alt=""></div></div><!--[--><!--]--></div><footer class="page-meta"><!----><div class="meta-item last-updated"><span class="meta-item-label">Last Updated: </span><!----></div><div class="meta-item contributors"><span class="meta-item-label">Contributors: </span><span class="meta-item-info"><!--[--><!--[--><span class="contributor" title="email: 44437770+petry078@users.noreply.github.com">Guilherme M. Petry</span><!----><!--]--><!--]--></span></div></footer><!----><!--[--><!--]--></main><!--]--></div><!----><!--]--></div>
+    <script type="module" src="/spellblog/assets/app.ef2b660b.js" defer></script>
+  </body>
+</html>
