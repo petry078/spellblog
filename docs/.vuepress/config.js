@@ -2,7 +2,7 @@ const { defaultTheme } = require("vuepress");
 const { searchPlugin } = require('@vuepress/plugin-search')
 
 module.exports = {
-    base: "/",
+    base: "/spellblog/",
     title: "✨ Spellblog",
     plugins: [
         searchPlugin({
