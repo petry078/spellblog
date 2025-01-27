@@ -16,7 +16,7 @@ main {
 
 Welcome, internet traveler!
 
-I'm Guilherme Petry, cyberwich, journalist, tech chronicler, writer, web developer, and cybersecurity apprentice.
+I'm Guilherme Petry, cyberwitch, journalist, tech chronicler, writer, web developer, and cybersecurity apprentice.
 
 You are now reading my narrated learning into the depths of computer witchcraft, programming spellcasting, and code chronicles.
 
@@ -32,4 +32,4 @@ Send me some smoke signs on [GitHub](https://github.com/petry078) or [LinkedIn](
 
 Here is the [GitHub repository](https://github.com/petry078/spellblog) for this project.
 
-[The Rider–Waite Tarot](https://en.wikipedia.org/wiki/Rider%E2%80%93Waite_Tarot).
+Also, have you heard of the [The Rider–Waite Tarot](https://en.wikipedia.org/wiki/Rider%E2%80%93Waite_Tarot)?

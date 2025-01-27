@@ -1,7 +1,9 @@
 ---
 title: JavaScript cast specification
 date: "2022-08-20"
-sidebar: auto
+sidebar: true
+prev: false
+next: false
 tags:
   - javascript
   - ecmascript

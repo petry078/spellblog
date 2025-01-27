@@ -1,7 +1,9 @@
 ---
 title: Learn web security with Helmet.js
 date: "2023-01-31"
-sidebar: false
+sidebar: true
+prev: false
+next: false
 tags:
   - inforsecurity
   - cybersecurity

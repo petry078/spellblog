@@ -1,7 +1,9 @@
 ---
 title: LaTeX PDF press specification
 date: "2024-01-09"
-sidebar: auto
+sidebar: true
+prev: false
+next: false
 tags:
   - LaTeX
   - TeX

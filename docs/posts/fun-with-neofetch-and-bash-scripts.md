@@ -1,7 +1,9 @@
 ---
 title: Fun with Neofetch and Bash scripts
 date: "2024-9-4"
-sidebar: false
+sidebar: true
+prev: false
+next: false
 tags:
   - Bash
   - Bashs script
@@ -12,7 +14,7 @@ tags:
 
 Neofetch is one piece of customization I really miss when I am at different computers other than my main one. When executed, it provides a nice Linux ASCII art with context information about the machine. You can customize the style and information it returns.
 
-![neofetch1.gif](./neofetch1.gif)
+![neofetch1.gif](/images/neofetch1.gif)
 
 Really nice, huh? Well, yes... 
 
@@ -24,7 +26,7 @@ This standard implementation is limited and even pointless for the everyday expe
 
 And with the power of bash scripts, yes, we can run customized `neofetch` with a simple `./neofetch.sh` call, and automate it to run as the first command of a new terminal window:
 
-![neofetch1.gif](./neofetch2.gif)
+![neofetch1.gif](/images/neofetch2.gif)
 
 > Neofetch was discontinued on Apr 26, 2024, but you can still use it, as it is just a simple tweak.
 

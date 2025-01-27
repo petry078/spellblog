@@ -1,7 +1,9 @@
 ---
 title: API enchantment with JavaScript
 date: "2023-07-17"
-sidebar: auto
+sidebar: true
+prev: false
+next: false
 tags:
   - API
   - JavaScript

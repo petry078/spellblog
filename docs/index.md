@@ -1,12 +1,36 @@
 ---
-home: true
-heroImage: https://petry078.github.io/tarot.gif
-heroText: Spellblog
-tagline: Documentations, writings, spells and other stuff
-footer: Made with VuePress 2 and Markdown — Guilherme M. Petry 2022
+# https://vitepress.dev/reference/default-theme-home-page
+layout: doc
+sidebar: false
+prev: false
+next: false
+aside: false
+
+hero:
+  name: ✨ Spellblog
+  tagline: Documentations, writings, spells and other stuff
+  image:
+    src: /images/tarot.gif
+    alt: spellblog logo
 ---
 
----
+
+<div class="container">
+  <div class="home-container">
+    <img src="/images/tarot.gif" alt="">
+    <p></p>
+    <h1>✨ Spellblog</h1>
+    <p>Documentations, writings, spells and other stuff</p>
+  </div>
+</div>
+
+<style>
+  .home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+</style>
 
 ### 💅 Fun with Neofetch and Bash scripts
 *04 Sep 2024*

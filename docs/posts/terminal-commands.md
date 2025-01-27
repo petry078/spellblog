@@ -1,7 +1,9 @@
 ---
 title: Linux Terminal & commands
 date: "2022-07-26"
-sidebar: auto
+sidebar: true
+prev: false
+next: false
 tags:
   - linux
   - terminal

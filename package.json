@@ -1,32 +1,11 @@
 {
-  "name": "spellblog",
-  "version": "1.0.0",
-  "description": "Documentations, writings, spells and other stuff",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs",
-    "deploy": "npm run docs:build && gh-pages -d docs/.vuepress/dist"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/petry078/spellblog"
-  },
-  "keywords": [
-    "vuepress",
-    "vuepress2",
-    "markdown",
-    "blog"
-  ],
-  "author": "Guilherme M. Petry",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/petry078/spellblog/issues"
-  },
-  "homepage": "https://github.com/petry078/spellblog#readme",
   "devDependencies": {
-    "@vuepress/plugin-search": "^2.0.0-beta.48",
-    "vuepress": "^2.0.0-beta.48"
+    "vitepress": "^1.6.3",
+    "vue": "^3.5.13"
+  },
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
   }
 }

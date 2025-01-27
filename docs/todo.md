@@ -15,7 +15,6 @@ Active work:
 Study:
 
 * Finish Ethical Hacking course (IDESP) (almost there...).
-* Finish Information Security Certificate from freecodecamp (almost there...)
 * Finish the JavaScript book and update the JavaScript Cast Specification post (almost there...).
 * Read "[The Penetration Testing Execution Standard](http://www.pentest-standard.org/index.php/Main_Page)" (not started).
 * Read "[OWASP Web Security Testing Guide](https://owasp.org/www-project-web-security-testing-guide/)" (not started).

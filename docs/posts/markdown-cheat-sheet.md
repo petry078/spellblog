@@ -1,7 +1,9 @@
 ---
 title: Markdown cheat sheet
 date: "2022-07-21"
-sidebar: false
+sidebar: true
+prev: false
+next: false
 tags:
   - markdown
   - vuepress

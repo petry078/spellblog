@@ -1,7 +1,9 @@
 ---
 title: Set up Kali Linux and Metasploitable on VirtualBox
 date: "2023-03-03"
-sidebar: auto
+sidebar: true
+prev: false
+next: false
 tags:
   - kali
   - kali linux
