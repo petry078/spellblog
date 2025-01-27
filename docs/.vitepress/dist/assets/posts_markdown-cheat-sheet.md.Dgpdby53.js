@@ -1,0 +1,29 @@
+import{_ as s,c as n,ae as e,o as t}from"./chunks/framework.DxKT8lur.js";const m=JSON.parse('{"title":"Markdown cheat sheet","description":"","frontmatter":{"title":"Markdown cheat sheet","date":"2022-07-21","sidebar":true,"prev":false,"next":false,"tags":["markdown","vuepress","tables"]},"headers":[],"relativePath":"posts/markdown-cheat-sheet.md","filePath":"posts/markdown-cheat-sheet.md"}'),p={name:"posts/markdown-cheat-sheet.md"};function l(i,a,c,o,d,r){return t(),n("div",null,a[0]||(a[0]=[e(`<h1 id="markdown-cheat-sheet" tabindex="-1">Markdown cheat sheet <a class="header-anchor" href="#markdown-cheat-sheet" aria-label="Permalink to &quot;Markdown cheat sheet&quot;">​</a></h1><div class="language- vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0"><code><span class="line"><span>| Markup syntax    | Name                            | Description &amp; Examples            |</span></span>
+<span class="line"><span>|------------------|---------------------------------|-----------------------------------|</span></span>
+<span class="line"><span>| #                | Heading 1 &lt;h1&gt;                  | # H1                              |</span></span>
+<span class="line"><span>| ##               | Heading 2 &lt;h2&gt;                  | ## H2                             |</span></span>
+<span class="line"><span>| ###              | Heading 3 &lt;h3&gt;                  | ### H3                            |   </span></span>
+<span class="line"><span>| ####             | Heading 4 &lt;h4&gt;                  | #### H4                           | </span></span>
+<span class="line"><span>| #####            | Heading 5 &lt;h5&gt;                  | ##### H5                          |  </span></span>
+<span class="line"><span>| ######           | Heading 6 &lt;h6&gt;                  | ###### H6                         | </span></span>
+<span class="line"><span>| **bold**         | Bold                            | **Bold** example                  |</span></span>
+<span class="line"><span>| *italic*         | Italic                          | *Italic* example                  | </span></span>
+<span class="line"><span>| ---              | Line &lt;hr&gt;                       | Line break (*** ___ )             |</span></span>
+<span class="line"><span>| &gt;                | Quote/Comment                   | &gt; Comment styled line             |</span></span>
+<span class="line"><span>| *                | Unordered list item             | * List item (- + are alternatives)|</span></span>
+<span class="line"><span>| 1.               | Number ordered list item        | 1. Just like this!                |</span></span>
+<span class="line"><span>| a.               | Character ordered list item     | a. Character styled list          |</span></span>
+<span class="line"><span>| - [ ] text       | Unmarked to-do list item        | Create to-do lists                |</span></span>
+<span class="line"><span>| - [x] text       | Checkd to-do list item          | This one is a checked [✔] box     |</span></span>
+<span class="line"><span>| \`\`\`code\`\`\`       | Code                            | \`\`\`Code styled line/block\`\`\`      | </span></span>
+<span class="line"><span>| [text](URL)      | Hyperlink                       | [Download here!](URL)             |</span></span>
+<span class="line"><span>| ![alt text](URL) | Image                           | ![altText](URL)                   |</span></span>
+<span class="line"><span>| \\                | Disable Markdown style          | Use before \`\`\` * # - + ! |        |</span></span>
+<span class="line"><span>|------------------|---------------------------------|-----------------------------------|</span></span>
+<span class="line"><span>|                                                                                        |</span></span>
+<span class="line"><span>|                                 text-align on tables                                   |</span></span>
+<span class="line"><span>|                                                                                        |</span></span>
+<span class="line"><span>|               | text-align: left | text-align: center | text-align: right |            |</span></span>
+<span class="line"><span>|               |:-----------------|:------------------:|------------------:|            |</span></span>
+<span class="line"><span>|               | text             |        text        |              text |            |</span></span>
+<span class="line"><span>|                                                                                        |</span></span></code></pre></div><div class="wisdom"><img class="wisdony" src="https://upload.wikimedia.org/wikipedia/commons/d/d7/Cups05.jpg" alt=""></div>`,3)]))}const g=s(p,[["render",l]]);export{m as __pageData,g as default};
