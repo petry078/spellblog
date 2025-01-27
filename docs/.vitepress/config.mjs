@@ -14,6 +14,9 @@ export default defineConfig({
       { text: 'About', link: '/about' },
       { text: 'To-do', link: '/todo' }
     ],
+    search: {
+      provider: 'local'
+    },
 
     sidebar: [
       {
