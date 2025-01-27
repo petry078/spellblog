@@ -37,7 +37,7 @@ hero:
 
 It's not cool, if it doesn't look cool
 
-<a href="./posts/fun-with-neofetch-and-bash-scripts.html"><b>Read more!</b></a>
+<a href="/spellblog/posts/fun-with-neofetch-and-bash-scripts.html"><b>Read more!</b></a>
 
 ---
 
@@ -46,7 +46,7 @@ It's not cool, if it doesn't look cool
 
 Ancient tech that works. Feels just like the Gutemberg press.
 
-<a href="./posts/latex-pdf-press.html"><b>Read more!</b></a>
+<a href="/spellblog/posts/latex-pdf-press.html"><b>Read more!</b></a>
 
 ---
 
@@ -55,7 +55,7 @@ Ancient tech that works. Feels just like the Gutemberg press.
 
 Computing power and black magic do not come from just one source.
 
-<a href="./posts/api-enchantment-with-javascript.html"><b>Read more!</b></a>
+<a href="/spellblog/posts/api-enchantment-with-javascript.html"><b>Read more!</b></a>
 
 ---
 
@@ -64,7 +64,7 @@ Computing power and black magic do not come from just one source.
 
 After a hours trying to fix all errors. Yeah. Maybe...
 
-<a href="./posts/kali-metasploitable-virtualbox.html"><b>Read more!</b></a>
+<a href="/spellblog/posts/kali-metasploitable-virtualbox.html"><b>Read more!</b></a>
 
 ---
 
@@ -73,7 +73,7 @@ After a hours trying to fix all errors. Yeah. Maybe...
 
 Get to know more about headers, caching, CDN and web vulnerabilities.
 
-<a href="./posts/intro-on-web-security-with-helmet-js.html"><b>Read more!</b></a>
+<a href="/spellblog/posts/intro-on-web-security-with-helmet-js.html"><b>Read more!</b></a>
 
 ---
 
@@ -82,7 +82,7 @@ Get to know more about headers, caching, CDN and web vulnerabilities.
 
 Command line scripts. This is starting to look like magic...
 
-<a href="./posts/bash-scriptage.html"><b>Read more!</b></a>
+<a href="/spellblog/posts/bash-scriptage.html"><b>Read more!</b></a>
 
 ---
 
@@ -91,7 +91,7 @@ Command line scripts. This is starting to look like magic...
 
 JavaScript is, indeed, for the mad.
 
-<a href="./posts/javascript-references.html"><b>Read more!</b></a>
+<a href="/spellblog/posts/javascript-references.html"><b>Read more!</b></a>
 
 ---
 
@@ -100,7 +100,7 @@ JavaScript is, indeed, for the mad.
 
 Just the basics, but it will get you going.
 
-<a href="./posts/github-once-and-for-all.html"><b>Read more!</b></a>
+<a href="/spellblog/posts/github-once-and-for-all.html"><b>Read more!</b></a>
 
 ---
 
@@ -109,7 +109,7 @@ Just the basics, but it will get you going.
 
 Remember! Those are not spells, yet...
 
-<a href="./posts/terminal-commands.html"><b>Read more!</b></a>
+<a href="/spellblog/posts/terminal-commands.html"><b>Read more!</b></a>
 
 ---
 
@@ -118,4 +118,4 @@ Remember! Those are not spells, yet...
 
 Basic Markdown syntax
 
-<a href="./posts/markdown-cheat-sheet.html"><b>Read more!</b></a>
+<a href="/spellblog/posts/markdown-cheat-sheet.html"><b>Read more!</b></a>
