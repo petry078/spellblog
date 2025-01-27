@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: '/spellblog/',
   title: "✨ Spellblog",
   description: "Documentations, writings, spells and other stuff",
   appearance: 'force-dark',
